@@ -255,7 +255,7 @@ ultralytics==8.0.196
 uri-template==1.3.0
 urllib3==2.2.2
 uvicorn==0.30.6
-virtualenv==20.26.3
+virtualenv==20.26.6
 visdom==0.2.4
 vision-datasets==0.2.2
 wandb==0.18.6

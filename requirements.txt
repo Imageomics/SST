@@ -87,7 +87,7 @@ iopath==0.1.9
 ipython==8.16.1
 ipywidgets==8.1.5
 isoduration==20.11.0
-Jinja2==3.1.4
+Jinja2==3.1.5
 joblib==1.4.2
 json-tricks==3.17.3
 json5==0.9.25

@@ -2,9 +2,18 @@
 [Imageomics Institute](https://imageomics.osu.edu/)
 
 [Zhenyang Feng](https://defisch.github.io/), Zihe Wang, Saul Ibaven Bueno, Tomasz Frelek, Advikaa Ramesh, Jingyan Bai, Lemeng Wang, [Zanming Huang](https://tzmhuang.github.io/), [Jianyang Gu](https://vimar-gu.github.io/), [Jinsu Yoo](https://jinsuyoo.info/), [Tai-Yu Pan](https://tydpan.github.io/), Arpita Chowdhury, Michelle Ramirez, [Elizabeth G Campolongo](https://u.osu.edu/campolongo-4/), Matthew J Thompson, [Christopher G. Lawrence](https://eeb.princeton.edu/people/christopher-lawrence), [Sydne Record](https://umaine.edu/wle/faculty-staff-directory/sydne-record/), [Neil Rosser](https://people.miami.edu/profile/74f02be76bd3ae57ed9edfdad0a3f76d), [Anuj Karpatne](https://anujkarpatne.github.io/), [Daniel Rubenstein](https://eeb.princeton.edu/people/daniel-rubenstein), [Hilmar Lapp](https://lappland.io/), [Charles V. Stewart](https://www.cs.rpi.edu/~stewart/), Tanya Berger-Wolf, [Yu Su](https://ysu1989.github.io/), [Wei-Lun Chao](https://sites.google.com/view/wei-lun-harry-chao)
+
 [[arXiv]](https://arxiv.org/abs/2501.06749) [[Dataset]](https://github.com/Imageomics/NEON_beetles_masks.git) [[BibTeX]](#-citation)
+
 ![main figure](assets/main.png)
 
+## 🗓️ TODO
+- [x] Release inference code
+- [x] Release beetle part segmentation dataset
+- [ ] Release online demo
+- [ ] Release one-shot fine-tuning (OC-CCL) code
+- [ ] Release trait retrieval code
+- [ ] Release butterfly trait segmentation dataset
 
 ## 🛠️ Installation
 To use SST, the following setup must be ran on a GPU enabled machine. The code requires `torch>=2.5.0`, and `python=3.10.14` is recommended.

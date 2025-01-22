@@ -1,4 +1,3 @@
-#%%
 import os
 import numpy as np
 import matplotlib.pyplot as plt
@@ -24,6 +23,7 @@ output_folder = args.output
 output_format = args.output_format
 
 # load the support image and mask
+print ("Loading support image and mask...")
 support_image = cv2.imread(support_image_path)[..., ::-1]
 support_mask = cv2.imread(support_mask_path, cv2.IMREAD_GRAYSCALE)
 support_masks = [support_mask == i for i in range(1, support_mask.max()+1)]
@@ -36,11 +36,13 @@ query_images = [cv2.imread(os.path.join(query_images_folder, img))[..., ::-1] fo
 video_predictor = sam_utils.build_sam2_predictor()
 
 # load the support image and mask
+print ("Inferring the masks...")
 state = sam_utils.load_masks(video_predictor, query_images, support_image, support_masks, verbose=True)
 frames_info = sam_utils.propagate_masks(video_predictor, state, verbose=True)
 
 # visualize the results
 output_imgs = []
+print ("Visualizing the results...")
 for i, frame in enumerate(frames_info):
     plt.clf()
     plt.figure(figsize=(10, 10))
@@ -61,8 +63,10 @@ for i, frame in enumerate(frames_info):
 if not os.path.exists(output_folder):
     os.makedirs(output_folder)
 if output_format == 'gif':
-    output_imgs[0].save(output_folder, save_all=True, append_images=output_imgs[1:], loop=0, duration=1000)
+    output_imgs[0].save(os.path.join(output_folder, "out.gif"), save_all=True, append_images=output_imgs[1:], loop=0, duration=1000)
 else:
     for i, img in enumerate(output_imgs):
         img.save(os.path.join(output_folder, f"{i:06d}.png"))
+
+print ("Done! The output is saved in", output_folder)
 

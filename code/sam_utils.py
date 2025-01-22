@@ -147,7 +147,7 @@ def show_anns(anns, color=None, borders=True):
 
     ax.imshow(img)
 
-def build_sam2_predictor(checkpoint="../../checkpoints/sam2_hiera_large.pt", model_cfg="../../sam2_configs/sam2_hiera_l.yaml"):
+def build_sam2_predictor(checkpoint="checkpoints/sam2_hiera_large.pt", model_cfg="sam2_hiera_l"):
     device = "cuda" if torch.cuda.is_available() else "cpu"
     video_predictor = build_sam2_video_predictor(model_cfg, checkpoint, device=device, apply_postprocessing=False)
     return video_predictor

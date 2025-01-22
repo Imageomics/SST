@@ -1,5 +1,10 @@
 __pycache__/
+data/
+out/
+src/
+GroundingDINO/
 *.jpg
+*.gif
 *.png
 *.pt
 *.pth

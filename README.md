@@ -12,7 +12,7 @@
 - [x] Release beetle part segmentation dataset
 - [ ] Release online demo
 - [ ] Release one-shot fine-tuning (OC-CCL) code
-- [ ] Release trait retrieval code
+- [x] Release trait retrieval code
 - [ ] Release butterfly trait segmentation dataset
 
 ## 🛠️ Installation
@@ -41,14 +41,24 @@ pip install -r requirements.txt --no-dependencies
 
 ## 🧑‍💻 Usage
 
-
+### Segmentation
+For one-shot trait/part segmentation, please run the following demo code:
 ```bash
 python code/segment.py --support_image /path/to/sample/image.png \
   --support_mask /path/to/greyscale_mask.png \ 
   --query_images /path/to/query/images/folder \
   --output /path/to/output/folder \
-  [--output_format png/gif]
+  --output_format "png" # png or gif, optional
 ```
+### Trait-Based Retrieval
+```bash
+python code/trait_retrieval.py --support_image /path/to/sample/image.png \
+  --support_mask /path/to/greyscale_mask.png \ 
+  --trait_id 1 \ # target trait to retrieve, denote by the value in support mask  \
+  --query_images /path/to/query/images/folder \
+  --output /path/to/output/folder \
+  --output_format "png" \ # png or gif, optional
+  --top_k 5 # n top retrievals to save as results
 
 ## 📊 Dataset
 Beetle part segmentation dataset is out! Available [here](https://github.com/Imageomics/NEON_beetles_masks.git).

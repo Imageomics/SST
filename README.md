@@ -51,6 +51,7 @@ python code/segment.py --support_image /path/to/sample/image.png \
   --output_format "png" # png or gif, optional
 ```
 ### Trait-Based Retrieval
+For trait-based retrieval, please refer to the demo code below:
 ```bash
 python code/trait_retrieval.py --support_image /path/to/sample/image.png \
   --support_mask /path/to/greyscale_mask.png \ 
@@ -59,6 +60,7 @@ python code/trait_retrieval.py --support_image /path/to/sample/image.png \
   --output /path/to/output/folder \
   --output_format "png" \ # png or gif, optional
   --top_k 5 # n top retrievals to save as results
+```
 
 ## 📊 Dataset
 Beetle part segmentation dataset is out! Available [here](https://github.com/Imageomics/NEON_beetles_masks.git).

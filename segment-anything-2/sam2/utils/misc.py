@@ -89,13 +89,16 @@ def mask_to_box(masks: torch.Tensor):
     return bbox_coords
 
 
-def _load_img_as_tensor(img_path, image_size):
-    img_pil = Image.open(img_path)
-    img_np = np.array(img_pil.convert("RGB").resize((image_size, image_size)))
+def _load_img_as_tensor(img_np_or_path, image_size, load=True):
+    if load:
+        img_pil = Image.open(img_np_or_path)
+        img_np = np.array(img_pil.convert("RGB").resize((image_size, image_size)))
+    else:
+        img_np = img_np_or_path
+        img_pil = Image.fromarray(img_np)
+        img_np = np.array(img_pil.convert("RGB").resize((image_size, image_size)))
     if img_np.dtype == np.uint8:  # np.uint8 is expected for JPEG images
         img_np = img_np / 255.0
-    else:
-        raise RuntimeError(f"Unknown image dtype: {img_np.dtype} on {img_path}")
     img = torch.from_numpy(img_np).permute(2, 0, 1)
     video_width, video_height = img_pil.size  # the original video size
     return img, video_height, video_width
@@ -177,7 +180,8 @@ def load_video_frames(
     img_std=(0.229, 0.224, 0.225),
     async_loading_frames=False,
     compute_device=torch.device("cuda"),
-    verbose=False,
+    image_inputs=None,
+    verbose=True,
 ):
     """
     Load the video frames from a directory of JPEG files ("<frame_index>.jpg" format).
@@ -187,31 +191,14 @@ def load_video_frames(
 
     You can load a frame asynchronously by setting `async_loading_frames` to `True`.
     """
-    # if isinstance(video_path, str) and os.path.isdir(video_path):
-    #     jpg_folder = video_path
-    # else:
-    #     raise NotImplementedError(
-    #         "Only JPEG frames are supported at this moment. For video files, you may use "
-    #         "ffmpeg (https://ffmpeg.org/) to extract frames into a folder of JPEG files, such as \n"
-    #         "```\n"
-    #         "ffmpeg -i <your_video>.mp4 -q:v 2 -start_number 0 <output_dir>/'%05d.jpg'\n"
-    #         "```\n"
-    #         "where `-q:v` generates high-quality JPEG frames and `-start_number 0` asks "
-    #         "ffmpeg to start the JPEG file from 00000.jpg."
-    #     )
-
-    # frame_names = [
-    #     p
-    #     for p in os.listdir(jpg_folder)
-    #     if os.path.splitext(p)[-1] in [".jpg", ".jpeg", ".JPG", ".JPEG"]
-    # ]
-    # frame_names.sort(key=lambda p: int(os.path.splitext(p)[0]))
-    # num_frames = len(frame_names)
-    # if num_frames == 0:
-    #     raise RuntimeError(f"no images found in {jpg_folder}")
-    # img_paths = [os.path.join(jpg_folder, frame_name) for frame_name in frame_names]
-    img_paths = video_path
-    num_frames = len(img_paths)
+    if image_inputs is None:
+        frame_names = video_path
+        frame_names.sort(key=lambda p: int(os.path.splitext(p)[0]))
+        num_frames = len(frame_names)
+        img_paths = frame_names
+    else:
+        num_frames = len(image_inputs)
+        img_paths = None
     img_mean = torch.tensor(img_mean, dtype=torch.float32)[:, None, None]
     img_std = torch.tensor(img_std, dtype=torch.float32)[:, None, None]
 
@@ -225,14 +212,41 @@ def load_video_frames(
             compute_device,
         )
         return lazy_images, lazy_images.video_height, lazy_images.video_width
-
     images = torch.zeros(num_frames, 3, image_size, image_size, dtype=torch.float32)
-    if verbose:
-        for n, img_path in enumerate(tqdm(img_paths, desc="frame loading (JPEG)")):
-            images[n], video_height, video_width = _load_img_as_tensor(img_path, image_size)
+    if image_inputs is None:
+        if verbose:
+            for n, img_path in enumerate(tqdm(img_paths, desc="frame loading (JPEG)")):
+                images[n], video_height, video_width = _load_img_as_tensor(img_path, image_size, load=True)
+        else:
+            for n, img_path in enumerate(img_paths):
+                images[n], video_height, video_width = _load_img_as_tensor(img_path, image_size, load=True)
     else:
-        for n, img_path in enumerate(img_paths):
-            images[n], video_height, video_width = _load_img_as_tensor(img_path, image_size)
+        if verbose:
+            for n, img_in in enumerate(tqdm(image_inputs, desc="frame loading (JPEG)")):
+                # skip if image_in is already a tensor
+                if isinstance(img_in, torch.Tensor):
+                    # resize the image if needed
+                    if img_in.shape[-2:] != (image_size, image_size):
+                        img_in = torch.nn.functional.interpolate(
+                            img_in.unsqueeze(0), size=(image_size, image_size), mode="bilinear", align_corners=False
+                        ).squeeze(0)
+                    images[n] = img_in
+                    video_height, video_width = img_in.shape[-2:]
+                    continue
+                images[n], video_height, video_width = _load_img_as_tensor(img_in, image_size, load=False)
+        else:
+            for n, img_in in enumerate(image_inputs):
+                # skip if image_in is already a tensor
+                if isinstance(img_in, torch.Tensor):
+                    # resize the image if needed
+                    if img_in.shape[-2:] != (image_size, image_size):
+                        img_in = torch.nn.functional.interpolate(
+                            img_in.unsqueeze(0), size=(image_size, image_size), mode="bilinear", align_corners=False
+                        ).squeeze(0)
+                    images[n] = img_in
+                    video_height, video_width = img_in.shape[-2:]
+                    continue
+                images[n], video_height, video_width = _load_img_as_tensor(img_in, image_size, load=False)
     if not offload_video_to_cpu:
         images = images.to(compute_device)
         img_mean = img_mean.to(compute_device)

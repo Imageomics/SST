@@ -16,26 +16,27 @@
 - [ ] Release butterfly trait segmentation dataset
 
 ## 🛠️ Installation
-To use SST, the following setup must be ran on a GPU enabled machine. The code requires `torch>=2.5.0`, and `python=3.10.14` is recommended.
+To use SST, the following setup must be ran on a GPU enabled machine. The code requires `torch>=2.5.0`, and `python=3.10.14` is recommended. (Note: Make sure your system is using GXX and GCC compilers)
 
 Example Conda Environment Setup:
 ```bash
-# clone repo
-(git clone https://github.com/Imageomics/SST.git && cd SST)
+# Clone repo
+git clone https://github.com/Imageomics/SST.git
+cd SST
 # Create conda environment
 conda create --name sst python=3.10.14
 conda activate sst
-# Download PyTorch corresponding to the CUDA version of the GPU
-...
+# Download the version of PyTorch that matches the GPU's CUDA version, see https://pytorch.org/get-started/locally/
+pip3 install torch torchvision torchaudio --index-url ...
 # Download and setup GroundingDINO
 (git clone https://github.com/IDEA-Research/GroundingDINO.git && cd GroundingDINO/ && pip install -e .)
-# Download required python packages
+# Install SAM 2
+(cd segment-anything-2 && pip install -e .)
+# Download required python packages, ignore the conflicts message
 pip install -r requirements.txt --no-dependencies
 # Download model checkpoints
 (cd checkpoints && ./download_ckpts.sh)
 (cd checkpoints && wget -q https://github.com/IDEA-Research/GroundingDINO/releases/download/v0.1.0-alpha/groundingdino_swint_ogc.pth)
-# Install SAM 2
-(cd segment-anything-2 && pip install -e .)
 ```
 
 ## 🧑‍💻 Usage

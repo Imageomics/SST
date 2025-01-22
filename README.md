@@ -74,10 +74,13 @@ We thank [LoRA](https://github.com/microsoft/LoRA) for their great work.
 ## 📝 Citation
 If you find our work helpful for your research, please consider citing using the following BibTeX entry:
 ```bibtex
-@article{feng2025static,
-  title={Static Segmentation by Tracking: A Frustratingly Label-Efficient Approach to Fine-Grained Segmentation},
-  author={Feng, Zhenyang and Wang, Zihe and Bueno, Saul Ibaven and Frelek, Tomasz and Ramesh, Advikaa and Bai, Jingyan and Wang, Lemeng and Huang, Zanming and Gu, Jianyang and Yoo, Jinsu and others},
-  journal={arXiv preprint arXiv:2501.06749},
-  year={2025}
+@misc{feng2025staticsegmentationtrackingfrustratingly,
+      title={Static Segmentation by Tracking: A Frustratingly Label-Efficient Approach to Fine-Grained Segmentation}, 
+      author={Zhenyang Feng and Zihe Wang and Saul Ibaven Bueno and Tomasz Frelek and Advikaa Ramesh and Jingyan Bai and Lemeng Wang and Zanming Huang and Jianyang Gu and Jinsu Yoo and Tai-Yu Pan and Arpita Chowdhury and Michelle Ramirez and Elizabeth G. Campolongo and Matthew J. Thompson and Christopher G. Lawrence and Sydne Record and Neil Rosser and Anuj Karpatne and Daniel Rubenstein and Hilmar Lapp and Charles V. Stewart and Tanya Berger-Wolf and Yu Su and Wei-Lun Chao},
+      year={2025},
+      eprint={2501.06749},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2501.06749}, 
 }
 ```

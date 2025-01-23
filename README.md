@@ -1,7 +1,7 @@
 # Static Segmentation by Tracking: A Frustratingly Label-Efficient Approach to Fine-Grained Segmentation
 [Imageomics Institute](https://imageomics.osu.edu/)
 
-[Zhenyang Feng](https://defisch.github.io/), Zihe Wang, Saul Ibaven Bueno, Tomasz Frelek, Advikaa Ramesh, Jingyan Bai, Lemeng Wang, [Zanming Huang](https://tzmhuang.github.io/), [Jianyang Gu](https://vimar-gu.github.io/), [Jinsu Yoo](https://jinsuyoo.info/), [Tai-Yu Pan](https://tydpan.github.io/), Arpita Chowdhury, Michelle Ramirez, [Elizabeth G Campolongo](https://u.osu.edu/campolongo-4/), Matthew J Thompson, [Christopher G. Lawrence](https://eeb.princeton.edu/people/christopher-lawrence), [Sydne Record](https://umaine.edu/wle/faculty-staff-directory/sydne-record/), [Neil Rosser](https://people.miami.edu/profile/74f02be76bd3ae57ed9edfdad0a3f76d), [Anuj Karpatne](https://anujkarpatne.github.io/), [Daniel Rubenstein](https://eeb.princeton.edu/people/daniel-rubenstein), [Hilmar Lapp](https://lappland.io/), [Charles V. Stewart](https://www.cs.rpi.edu/~stewart/), Tanya Berger-Wolf, [Yu Su](https://ysu1989.github.io/), [Wei-Lun Chao](https://sites.google.com/view/wei-lun-harry-chao)
+[Zhenyang Feng](https://defisch.github.io/), [Zihe Wang](https://ziheherzwang.github.io/HerzWangWebsite/), Saul Ibaven Bueno, Tomasz Frelek, Advikaa Ramesh, Jingyan Bai, Lemeng Wang, [Zanming Huang](https://tzmhuang.github.io/), [Jianyang Gu](https://vimar-gu.github.io/), [Jinsu Yoo](https://jinsuyoo.info/), [Tai-Yu Pan](https://tydpan.github.io/), Arpita Chowdhury, Michelle Ramirez, [Elizabeth G Campolongo](https://u.osu.edu/campolongo-4/), Matthew J Thompson, [Christopher G. Lawrence](https://eeb.princeton.edu/people/christopher-lawrence), [Sydne Record](https://umaine.edu/wle/faculty-staff-directory/sydne-record/), [Neil Rosser](https://people.miami.edu/profile/74f02be76bd3ae57ed9edfdad0a3f76d), [Anuj Karpatne](https://anujkarpatne.github.io/), [Daniel Rubenstein](https://eeb.princeton.edu/people/daniel-rubenstein), [Hilmar Lapp](https://lappland.io/), [Charles V. Stewart](https://www.cs.rpi.edu/~stewart/), Tanya Berger-Wolf, [Yu Su](https://ysu1989.github.io/), [Wei-Lun Chao](https://sites.google.com/view/wei-lun-harry-chao)
 
 [[arXiv]](https://arxiv.org/abs/2501.06749) [[Dataset]](https://github.com/Imageomics/NEON_beetles_masks.git) [[BibTeX]](#-citation)
 
@@ -13,7 +13,7 @@
 - [ ] Release online demo
 - [ ] Release one-shot fine-tuning (OC-CCL) code
 - [x] Release trait retrieval code
-- [ ] Release butterfly trait segmentation dataset
+- [x] Release butterfly trait segmentation dataset
 
 ## 🛠️ Installation
 To use SST, the following setup must be ran on a GPU enabled machine. The code requires `torch>=2.5.0`, and `python=3.10.14` is recommended. (Note: Make sure your system is using GXX and GCC compilers)
@@ -64,7 +64,7 @@ python code/trait_retrieval.py --support_image /path/to/sample/image.png \
 
 ## 📊 Dataset
 Beetle part segmentation dataset is out! Available [here](https://github.com/Imageomics/NEON_beetles_masks.git).
-We will release our trait segmentation datasets for butterfly in the near future!
+Butterfly trait segmentation dataset can be accessed [here](https://github.com/ZiheHerzWang/butterfly_dataset/tree/main)!
 
 ## ❤️ Acknowledgements
 This project makes use of the [SAM2](https://github.com/facebookresearch/sam2) and [GroundingDINO](https://github.com/IDEA-Research/GroundingDINO) codebases. We are grateful to the developers and maintainers of these projects for their contributions to the open-source community.

@@ -1,0 +1,127 @@
+abstract: "This repository provides the official implementation of 'Static Segmentation by Tracking: A Frustratingly Label-Efficient Approach to Fine-Grained Segmentation.' The method leverages a tracking-based approach for efficient fine-grained segmentation with minimal labeling effort. The code includes dataset preparation, inference, and training scripts."
+authors:
+  - family-names: Feng
+    given-names: Zhenyang
+  - family-names: Wang
+    given-names: Zihe
+  - family-names: Bueno
+    given-names: Saul Ibaven
+  - family-names: Frelek
+    given-names: Tomasz
+  - family-names: Ramesh
+    given-names: Advikaa
+  - family-names: Bai
+    given-names: Jingyan
+  - family-names: Wang
+    given-names: Lemeng
+  - family-names: Huang
+    given-names: Zanming
+  - family-names: Gu
+    given-names: Jianyang
+  - family-names: Yoo
+    given-names: Jinsu
+  - family-names: Pan
+    given-names: Tai-Yu
+  - family-names: Chowdhury
+    given-names: Arpita
+  - family-names: Ramirez
+    given-names: Michelle
+  - family-names: Campolongo
+    given-names: Elizabeth G
+  - family-names: Thompson
+    given-names: Matthew J
+  - family-names: Lawrence
+    given-names: Christopher G.
+  - family-names: Record
+    given-names: Sydne
+  - family-names: Rosser
+    given-names: Neil
+  - family-names: Karpatne
+    given-names: Anuj
+  - family-names: Rubenstein
+    given-names: Daniel
+  - family-names: Lapp
+    given-names: Hilmar
+  - family-names: Stewart
+    given-names: Charles V.
+  - family-names: Berger-Wolf
+    given-names: Tanya
+  - family-names: Su
+    given-names: Yu
+  - family-names: Chao
+    given-names: Wei-Lun
+cff-version: 1.2.0
+date-released: "2025-01-12"
+identifiers:
+  - description: "The GitHub release URL of tag v1.0.0."
+    type: url
+    value: "https://github.com/Imageomics/SST/releases/tag/v1.0.0"
+keywords:
+  - imageomics
+  - biological vision
+  - trait segmentation
+  - computer vision
+  - machine learning
+license: "MIT"
+message: "If you find this software helpful in your research, please cite both the software and our paper."
+repository-code: "https://github.com/Imageomics/SST"
+title: "SST: Static Segmentation by Tracking"
+version: v1.0.0
+type: software
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Feng
+      given-names: Zhenyang
+    - family-names: Wang
+      given-names: Zihe
+    - family-names: Bueno
+      given-names: Saul Ibaven
+    - family-names: Frelek
+      given-names: Tomasz
+    - family-names: Ramesh
+      given-names: Advikaa
+    - family-names: Bai
+      given-names: Jingyan
+    - family-names: Wang
+      given-names: Lemeng
+    - family-names: Huang
+      given-names: Zanming
+    - family-names: Gu
+      given-names: Jianyang
+    - family-names: Yoo
+      given-names: Jinsu
+    - family-names: Pan
+      given-names: Tai-Yu
+    - family-names: Chowdhury
+      given-names: Arpita
+    - family-names: Ramirez
+      given-names: Michelle
+    - family-names: Campolongo
+      given-names: Elizabeth G
+    - family-names: Thompson
+      given-names: Matthew J
+    - family-names: Lawrence
+      given-names: Christopher G.
+    - family-names: Record
+      given-names: Sydne
+    - family-names: Rosser
+      given-names: Neil
+    - family-names: Karpatne
+      given-names: Anuj
+    - family-names: Rubenstein
+      given-names: Daniel
+    - family-names: Lapp
+      given-names: Hilmar
+    - family-names: Stewart
+      given-names: Charles V.
+    - family-names: Berger-Wolf
+      given-names: Tanya
+    - family-names: Su
+      given-names: Yu
+    - family-names: Chao
+      given-names: Wei-Lun
+  title: "Static Segmentation by Tracking: A Frustratingly Label-Efficient Approach to Fine-Grained Segmentation"
+  year: 2025
+  journal: "arXiv preprint"
+  doi: "10.48550/arXiv.2501.06749"

@@ -244,7 +244,7 @@ tomli==2.0.1
 torchmetrics==0.11.0
 torchshow==0.5.0
 tqdm==4.66.3
-transformers==4.34.0
+transformers==4.48.0
 triton==3.1.0
 types-python-dateutil==2.9.0.20240821
 typing==3.7.4.3

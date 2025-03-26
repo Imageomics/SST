@@ -1,12 +1,11 @@
 __pycache__/
-data/
 out/
-src/
 GroundingDINO/
-*.jpg
+# *.jpg
 *.gif
-*.png
+# *.png
 *.pt
 *.pth
 *.pkl
 *.so
+**.DS_Store

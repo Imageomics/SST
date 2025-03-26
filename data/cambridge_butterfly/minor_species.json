@@ -1,0 +1,4983 @@
+{
+    "notabilis": [
+        [
+            18949,
+            "https://zenodo.org/record/4153502/files/CAM016703_d.CR2",
+            "DataSet_Butterfly/Minor_species_data/notabilis/masked_img/18949.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "6": 2
+            }
+        ],
+        [
+            3884,
+            "https://zenodo.org/record/3082688/files/CAM016706_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/notabilis/masked_img/3884.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "6": 2
+            }
+        ],
+        [
+            2929,
+            "https://zenodo.org/record/3082688/files/CAM016010_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/notabilis/masked_img/2929.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "6": 2
+            }
+        ]
+    ],
+    "amaryllis": [
+        [
+            9593,
+            "https://zenodo.org/record/2686762/files/CAM008630_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/amaryllis/masked_img/9593.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ],
+        [
+            9577,
+            "https://zenodo.org/record/2686762/files/CAM008622_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/amaryllis/masked_img/9577.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ],
+        [
+            9573,
+            "https://zenodo.org/record/2686762/files/CAM008620_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/amaryllis/masked_img/9573.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ]
+    ],
+    "(malleti x plesseni) x plesseni": [
+        [
+            5756,
+            "https://zenodo.org/record/3082688/files/CAM017928_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/(malleti x plesseni) x plesseni/masked_img/5756.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "9": 3,
+                "10": 3,
+                "6": 4,
+                "8": 4
+            }
+        ],
+        [
+            16231,
+            "https://zenodo.org/record/1748277/files/CAM017743_v_whitestandard.JPG",
+            "DataSet_Butterfly/Minor_species_data/(malleti x plesseni) x plesseni/masked_img/16231.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "9": 3,
+                "10": 3,
+                "6": 4,
+                "8": 4
+            }
+        ],
+        [
+            5758,
+            "https://zenodo.org/record/3082688/files/CAM017929_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/(malleti x plesseni) x plesseni/masked_img/5758.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "9": 3,
+                "10": 3,
+                "6": 4,
+                "8": 4
+            }
+        ]
+    ],
+    "(plesseni x malleti) x plesseni": [
+        [
+            16578,
+            "https://zenodo.org/record/1748277/files/CAM017831_v_whitestandard.CR2",
+            "DataSet_Butterfly/Minor_species_data/(plesseni x malleti) x plesseni/masked_img/16578.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "9": 3,
+                "10": 3,
+                "6": 4,
+                "8": 4
+            }
+        ],
+        [
+            11090,
+            "https://zenodo.org/record/2702457/files/CAM018335_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/(plesseni x malleti) x plesseni/masked_img/11090.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "9": 3,
+                "10": 3,
+                "6": 4,
+                "8": 4
+            }
+        ],
+        [
+            5607,
+            "https://zenodo.org/record/3082688/files/CAM017831_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/(plesseni x malleti) x plesseni/masked_img/5607.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "9": 3,
+                "10": 3,
+                "6": 4,
+                "8": 4
+            }
+        ]
+    ],
+    "(plesseni x malleti) x (plesseni x malleti)": [
+        [
+            5657,
+            "https://zenodo.org/record/3082688/files/CAM017865_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/(plesseni x malleti) x (plesseni x malleti)/masked_img/5657.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "9": 3,
+                "10": 3,
+                "6": 4,
+                "8": 4
+            }
+        ],
+        [
+            16827,
+            "https://zenodo.org/record/1748277/files/CAM017893_v_whitestandard.JPG",
+            "DataSet_Butterfly/Minor_species_data/(plesseni x malleti) x (plesseni x malleti)/masked_img/16827.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "9": 3,
+                "10": 3,
+                "6": 4,
+                "8": 4
+            }
+        ],
+        [
+            16654,
+            "https://zenodo.org/record/1748277/files/CAM017850_v_whitestandard.CR2",
+            "DataSet_Butterfly/Minor_species_data/(plesseni x malleti) x (plesseni x malleti)/masked_img/16654.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "9": 3,
+                "10": 3,
+                "6": 4,
+                "8": 4
+            }
+        ]
+    ],
+    "(malleti x plesseni) x (plesseni x malleti)": [
+        [
+            5625,
+            "https://zenodo.org/record/3082688/files/CAM017843_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/(malleti x plesseni) x (plesseni x malleti)/masked_img/5625.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "9": 3,
+                "10": 3,
+                "6": 4,
+                "8": 4
+            }
+        ],
+        [
+            16627,
+            "https://zenodo.org/record/1748277/files/CAM017843_v_whitestandard.JPG",
+            "DataSet_Butterfly/Minor_species_data/(malleti x plesseni) x (plesseni x malleti)/masked_img/16627.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "9": 3,
+                "10": 3,
+                "6": 4,
+                "8": 4
+            }
+        ],
+        [
+            5655,
+            "https://zenodo.org/record/3082688/files/CAM017863_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/(malleti x plesseni) x (plesseni x malleti)/masked_img/5655.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "9": 3,
+                "10": 3,
+                "6": 4,
+                "8": 4
+            }
+        ]
+    ],
+    "(plesseni x malleti) x (malleti x plesseni)": [
+        [
+            16599,
+            "https://zenodo.org/record/1748277/files/CAM017836_v_whitestandard.JPG",
+            "DataSet_Butterfly/Minor_species_data/(plesseni x malleti) x (malleti x plesseni)/masked_img/16599.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "9": 3,
+                "10": 3,
+                "6": 4,
+                "8": 4
+            }
+        ],
+        [
+            16202,
+            "https://zenodo.org/record/1748277/files/CAM017736_d_whitestandard.CR2",
+            "DataSet_Butterfly/Minor_species_data/(plesseni x malleti) x (malleti x plesseni)/masked_img/16202.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "9": 3,
+                "10": 3,
+                "6": 4,
+                "8": 4
+            }
+        ],
+        [
+            16206,
+            "https://zenodo.org/record/1748277/files/CAM017737_d_whitestandard.CR2",
+            "DataSet_Butterfly/Minor_species_data/(plesseni x malleti) x (malleti x plesseni)/masked_img/16206.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "9": 3,
+                "10": 3,
+                "6": 4,
+                "8": 4
+            }
+        ]
+    ],
+    "(malleti x plesseni) x (malleti x plesseni)": [
+        [
+            5550,
+            "https://zenodo.org/record/3082688/files/CAM017781_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/(malleti x plesseni) x (malleti x plesseni)/masked_img/5550.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "9": 3,
+                "10": 3,
+                "6": 4,
+                "8": 4
+            }
+        ],
+        [
+            17369,
+            "https://zenodo.org/record/2548678/files/CAM018235_d_whitestandard.JPG",
+            "DataSet_Butterfly/Minor_species_data/(malleti x plesseni) x (malleti x plesseni)/masked_img/17369.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "9": 3,
+                "10": 3,
+                "6": 4,
+                "8": 4
+            }
+        ],
+        [
+            16806,
+            "https://zenodo.org/record/1748277/files/CAM017888_v_whitestandard.CR2",
+            "DataSet_Butterfly/Minor_species_data/(malleti x plesseni) x (malleti x plesseni)/masked_img/16806.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "9": 3,
+                "10": 3,
+                "6": 4,
+                "8": 4
+            }
+        ]
+    ],
+    "plesseni x (plesseni x malleti)": [
+        [
+            11200,
+            "https://zenodo.org/record/2702457/files/CAM018426_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/plesseni x (plesseni x malleti)/masked_img/11200.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "9": 3,
+                "10": 3,
+                "6": 4,
+                "8": 4
+            }
+        ],
+        [
+            17397,
+            "https://zenodo.org/record/2548678/files/CAM018242_d_whitestandard.JPG",
+            "DataSet_Butterfly/Minor_species_data/plesseni x (plesseni x malleti)/masked_img/17397.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "9": 3,
+                "10": 3,
+                "6": 4,
+                "8": 4
+            }
+        ],
+        [
+            18233,
+            "https://zenodo.org/record/2548678/files/CAM018455_v_whitestandard.JPG",
+            "DataSet_Butterfly/Minor_species_data/plesseni x (plesseni x malleti)/masked_img/18233.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "9": 3,
+                "10": 3,
+                "6": 4,
+                "8": 4
+            }
+        ]
+    ],
+    "nanna": [
+        [
+            42026,
+            "https://zenodo.org/record/5561246/files/CAM036387_d.CR2",
+            "DataSet_Butterfly/Minor_species_data/nanna/masked_img/42026.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ],
+        [
+            41462,
+            "https://zenodo.org/record/5561246/files/CAM036182_d.CR2",
+            "DataSet_Butterfly/Minor_species_data/nanna/masked_img/41462.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ],
+        [
+            41619,
+            "https://zenodo.org/record/5561246/files/CAM036227_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/nanna/masked_img/41619.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ]
+    ],
+    "melpomene x rosina": [
+        [
+            6876,
+            "https://zenodo.org/record/2682458/files/CAM000651_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/melpomene x rosina/masked_img/6876.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "4": 1
+            }
+        ],
+        [
+            10756,
+            "https://zenodo.org/record/2686762/files/CAM009507_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/melpomene x rosina/masked_img/10756.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "4": 1
+            }
+        ],
+        [
+            10888,
+            "https://zenodo.org/record/2686762/files/CAM009573_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/melpomene x rosina/masked_img/10888.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "4": 1
+            }
+        ]
+    ],
+    "venus": [
+        [
+            14957,
+            "https://zenodo.org/record/4289223/files/15N145_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/venus/masked_img/14957.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "4": 1
+            }
+        ],
+        [
+            15173,
+            "https://zenodo.org/record/4289223/files/15N113_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/venus/masked_img/15173.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "4": 1
+            }
+        ],
+        [
+            15171,
+            "https://zenodo.org/record/4289223/files/15N112_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/venus/masked_img/15171.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "4": 1
+            }
+        ]
+    ],
+    "bicoloratus": [
+        [
+            13104,
+            "https://zenodo.org/record/2714333/files/CAM040734_d.CR2",
+            "DataSet_Butterfly/Minor_species_data/bicoloratus/masked_img/13104.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "4": 1
+            }
+        ],
+        [
+            10600,
+            "https://zenodo.org/record/2686762/files/CAM009401_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/bicoloratus/masked_img/10600.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "4": 1
+            }
+        ],
+        [
+            13088,
+            "https://zenodo.org/record/2714333/files/CAM040730_d.CR2",
+            "DataSet_Butterfly/Minor_species_data/bicoloratus/masked_img/13088.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "4": 1
+            }
+        ]
+    ],
+    "hermogenes": [
+        [
+            25889,
+            "https://zenodo.org/record/2553501/files/CS3271 dorsal .jpeg",
+            "DataSet_Butterfly/Minor_species_data/hermogenes/masked_img/25889.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ],
+        [
+            25851,
+            "https://zenodo.org/record/2553501/files/CS3113 dorsal .jpeg",
+            "DataSet_Butterfly/Minor_species_data/hermogenes/masked_img/25851.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ],
+        [
+            25849,
+            "https://zenodo.org/record/2553501/files/CS3112 dorsal.jpeg",
+            "DataSet_Butterfly/Minor_species_data/hermogenes/masked_img/25849.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ]
+    ],
+    "weymeri f. weymeri": [
+        [
+            25777,
+            "https://zenodo.org/record/2553501/files/CS2542 dorsal.jpeg",
+            "DataSet_Butterfly/Minor_species_data/weymeri f. weymeri/masked_img/25777.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ],
+        [
+            26017,
+            "https://zenodo.org/record/2553501/files/CS939 dorsal.jpeg",
+            "DataSet_Butterfly/Minor_species_data/weymeri f. weymeri/masked_img/26017.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ],
+        [
+            25821,
+            "https://zenodo.org/record/2553501/files/CS2998 dorsal.jpeg",
+            "DataSet_Butterfly/Minor_species_data/weymeri f. weymeri/masked_img/25821.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ]
+    ],
+    "cythera": [
+        [
+            15137,
+            "https://zenodo.org/record/4289223/files/14N015_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/cythera/masked_img/15137.png",
+            {
+                "1": 0,
+                "3": 0,
+                "2": 1,
+                "4": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ],
+        [
+            14943,
+            "https://zenodo.org/record/4289223/files/15N004_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/cythera/masked_img/14943.png",
+            {
+                "1": 0,
+                "3": 0,
+                "2": 1,
+                "4": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ],
+        [
+            13527,
+            "https://zenodo.org/record/2714333/files/CAM040944_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/cythera/masked_img/13527.png",
+            {
+                "1": 0,
+                "3": 0,
+                "2": 1,
+                "4": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ]
+    ],
+    "wanningeri": [
+        [
+            25813,
+            "https://zenodo.org/record/2553501/files/CS2963 dorsal.jpeg",
+            "DataSet_Butterfly/Minor_species_data/wanningeri/masked_img/25813.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ],
+        [
+            25807,
+            "https://zenodo.org/record/2553501/files/CS2956 dorsal.jpeg",
+            "DataSet_Butterfly/Minor_species_data/wanningeri/masked_img/25807.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ],
+        [
+            25803,
+            "https://zenodo.org/record/2553501/files/CS2954 dorsal.jpeg",
+            "DataSet_Butterfly/Minor_species_data/wanningeri/masked_img/25803.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ]
+    ],
+    "congener": [
+        [
+            38483,
+            "https://zenodo.org/record/4291095/files/CAM041376_d.CR2",
+            "DataSet_Butterfly/Minor_species_data/congener/masked_img/38483.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "6": 2
+            }
+        ],
+        [
+            38484,
+            "https://zenodo.org/record/4291095/files/CAM041376_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/congener/masked_img/38484.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "6": 2
+            }
+        ],
+        [
+            10257,
+            "https://zenodo.org/record/2686762/files/CAM009144_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/congener/masked_img/10257.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "6": 2
+            }
+        ]
+    ],
+    "timareta": [
+        [
+            9402,
+            "https://zenodo.org/record/2684906/files/CAM008520_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/timareta/masked_img/9402.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ],
+        [
+            10297,
+            "https://zenodo.org/record/2686762/files/CAM009164_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/timareta/masked_img/10297.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ],
+        [
+            9414,
+            "https://zenodo.org/record/2684906/files/CAM008528_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/timareta/masked_img/9414.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ]
+    ],
+    "paraiya": [
+        [
+            41782,
+            "https://zenodo.org/record/5561246/files/CAM036282_d.CR2",
+            "DataSet_Butterfly/Minor_species_data/paraiya/masked_img/41782.png",
+            {
+                "1": 0,
+                "8": 0,
+                "2": 1,
+                "7": 1,
+                "3": 2,
+                "6": 2,
+                "4": 3,
+                "5": 3,
+                "9": 4,
+                "12": 4,
+                "10": 5,
+                "13": 5,
+                "11": 6,
+                "14": 6
+            }
+        ],
+        [
+            41967,
+            "https://zenodo.org/record/5561246/files/CAM036354_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/paraiya/masked_img/41967.png",
+            {
+                "1": 0,
+                "8": 0,
+                "2": 1,
+                "7": 1,
+                "3": 2,
+                "6": 2,
+                "4": 3,
+                "5": 3,
+                "9": 4,
+                "12": 4,
+                "10": 5,
+                "13": 5,
+                "11": 6,
+                "14": 6
+            }
+        ],
+        [
+            41783,
+            "https://zenodo.org/record/5561246/files/CAM036282_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/paraiya/masked_img/41783.png",
+            {
+                "1": 0,
+                "8": 0,
+                "2": 1,
+                "7": 1,
+                "3": 2,
+                "6": 2,
+                "4": 3,
+                "5": 3,
+                "9": 4,
+                "12": 4,
+                "10": 5,
+                "13": 5,
+                "11": 6,
+                "14": 6
+            }
+        ]
+    ],
+    "saturata": [
+        [
+            9054,
+            "https://zenodo.org/record/2684906/files/CAM008323_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/saturata/masked_img/9054.png",
+            {
+                "1": 0,
+                "3": 0,
+                "2": 1,
+                "4": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ],
+        [
+            9058,
+            "https://zenodo.org/record/2684906/files/CAM008325_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/saturata/masked_img/9058.png",
+            {
+                "1": 0,
+                "3": 0,
+                "2": 1,
+                "4": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ],
+        [
+            9242,
+            "https://zenodo.org/record/2684906/files/CAM008423_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/saturata/masked_img/9242.png",
+            {
+                "1": 0,
+                "3": 0,
+                "2": 1,
+                "4": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ]
+    ],
+    "cydnides": [
+        [
+            25793,
+            "https://zenodo.org/record/2553501/files/CS2737 dorsal.jpeg",
+            "DataSet_Butterfly/Minor_species_data/cydnides/masked_img/25793.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ],
+        [
+            6160,
+            "https://zenodo.org/record/2677821/files/CAM000164_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/cydnides/masked_img/6160.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ],
+        [
+            25781,
+            "https://zenodo.org/record/2553501/files/CS2724 dorsal.jpeg",
+            "DataSet_Butterfly/Minor_species_data/cydnides/masked_img/25781.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ]
+    ],
+    "menapis": [
+        [
+            8485,
+            "https://zenodo.org/record/2684906/files/CAM002894_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/menapis/masked_img/8485.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ],
+        [
+            8479,
+            "https://zenodo.org/record/2684906/files/CAM002882_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/menapis/masked_img/8479.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ],
+        [
+            8477,
+            "https://zenodo.org/record/2684906/files/CAM002881_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/menapis/masked_img/8477.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ]
+    ],
+    "relata": [
+        [
+            9226,
+            "https://zenodo.org/record/2684906/files/CAM008415_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/relata/masked_img/9226.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ],
+        [
+            9208,
+            "https://zenodo.org/record/2684906/files/CAM008405_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/relata/masked_img/9208.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ],
+        [
+            9262,
+            "https://zenodo.org/record/2684906/files/CAM008436_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/relata/masked_img/9262.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ]
+    ],
+    "meriana": [
+        [
+            26087,
+            "https://zenodo.org/record/2553977/files/melp_14-103.jpg",
+            "DataSet_Butterfly/Minor_species_data/meriana/masked_img/26087.png",
+            {
+                "1": 0,
+                "6": 0,
+                "2": 1,
+                "5": 1,
+                "3": 2,
+                "4": 2,
+                "7": 3,
+                "9": 3,
+                "8": 4,
+                "10": 4
+            }
+        ],
+        [
+            26095,
+            "https://zenodo.org/record/2553977/files/melp_14-120.jpg",
+            "DataSet_Butterfly/Minor_species_data/meriana/masked_img/26095.png",
+            {
+                "1": 0,
+                "6": 0,
+                "2": 1,
+                "5": 1,
+                "3": 2,
+                "4": 2,
+                "7": 3,
+                "9": 3,
+                "8": 4,
+                "10": 4
+            }
+        ],
+        [
+            26041,
+            "https://zenodo.org/record/2553977/files/13715_H_m_meriana_D.JPG.jpg",
+            "DataSet_Butterfly/Minor_species_data/meriana/masked_img/26041.png",
+            {
+                "1": 0,
+                "6": 0,
+                "2": 1,
+                "5": 1,
+                "3": 2,
+                "4": 2,
+                "7": 3,
+                "9": 3,
+                "8": 4,
+                "10": 4
+            }
+        ]
+    ],
+    "magdalena": [
+        [
+            38744,
+            "https://zenodo.org/record/4291095/files/CAM041443_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/magdalena/masked_img/38744.png",
+            {
+                "1": 0,
+                "6": 0,
+                "2": 1,
+                "5": 1,
+                "3": 2,
+                "4": 2,
+                "7": 3,
+                "9": 3,
+                "8": 4,
+                "10": 4
+            }
+        ],
+        [
+            38752,
+            "https://zenodo.org/record/4291095/files/CAM041445_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/magdalena/masked_img/38752.png",
+            {
+                "1": 0,
+                "6": 0,
+                "2": 1,
+                "5": 1,
+                "3": 2,
+                "4": 2,
+                "7": 3,
+                "9": 3,
+                "8": 4,
+                "10": 4
+            }
+        ],
+        [
+            38851,
+            "https://zenodo.org/record/4291095/files/CAM041470_d.CR2",
+            "DataSet_Butterfly/Minor_species_data/magdalena/masked_img/38851.png",
+            {
+                "1": 0,
+                "6": 0,
+                "2": 1,
+                "5": 1,
+                "3": 2,
+                "4": 2,
+                "7": 3,
+                "9": 3,
+                "8": 4,
+                "10": 4
+            }
+        ]
+    ],
+    "lativitta x notabilis": [
+        [
+            16251,
+            "https://zenodo.org/record/1748277/files/CAM017748_v_whitestandard.JPG",
+            "DataSet_Butterfly/Minor_species_data/lativitta x notabilis/masked_img/16251.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "5": 1,
+                "3": 2,
+                "6": 2,
+                "7": 3,
+                "9": 3,
+                "8": 4,
+                "10": 4
+            }
+        ],
+        [
+            16274,
+            "https://zenodo.org/record/1748277/files/CAM017754_v_whitestandard.CR2",
+            "DataSet_Butterfly/Minor_species_data/lativitta x notabilis/masked_img/16274.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "5": 1,
+                "3": 2,
+                "6": 2,
+                "7": 3,
+                "9": 3,
+                "8": 4,
+                "10": 4
+            }
+        ],
+        [
+            18509,
+            "https://zenodo.org/record/2548678/files/CAM018524_v_whitestandard.JPG",
+            "DataSet_Butterfly/Minor_species_data/lativitta x notabilis/masked_img/18509.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "5": 1,
+                "3": 2,
+                "6": 2,
+                "7": 3,
+                "9": 3,
+                "8": 4,
+                "10": 4
+            }
+        ]
+    ],
+    "melpomene": [
+        [
+            6328,
+            "https://zenodo.org/record/2677821/files/CAM000251_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/melpomene/masked_img/6328.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "4": 1
+            }
+        ],
+        [
+            6344,
+            "https://zenodo.org/record/2677821/files/CAM000259_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/melpomene/masked_img/6344.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "4": 1
+            }
+        ],
+        [
+            6866,
+            "https://zenodo.org/record/2682458/files/CAM000645_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/melpomene/masked_img/6866.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "4": 1
+            }
+        ]
+    ],
+    "ecuadorensis": [
+        [
+            10193,
+            "https://zenodo.org/record/2686762/files/CAM009112_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/ecuadorensis/masked_img/10193.png",
+            {
+                "1": 0,
+                "3": 0,
+                "2": 1,
+                "4": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ],
+        [
+            10195,
+            "https://zenodo.org/record/2686762/files/CAM009113_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/ecuadorensis/masked_img/10195.png",
+            {
+                "1": 0,
+                "3": 0,
+                "2": 1,
+                "4": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ],
+        [
+            10197,
+            "https://zenodo.org/record/2686762/files/CAM009114_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/ecuadorensis/masked_img/10197.png",
+            {
+                "1": 0,
+                "3": 0,
+                "2": 1,
+                "4": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ]
+    ],
+    "vicina": [
+        [
+            25873,
+            "https://zenodo.org/record/2553501/files/CS31755 dorsal.jpeg",
+            "DataSet_Butterfly/Minor_species_data/vicina/masked_img/25873.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ],
+        [
+            25871,
+            "https://zenodo.org/record/2553501/files/CS31744 dorsal.jpeg",
+            "DataSet_Butterfly/Minor_species_data/vicina/masked_img/25871.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ],
+        [
+            25879,
+            "https://zenodo.org/record/2553501/files/CS32533 dorsal.jpeg",
+            "DataSet_Butterfly/Minor_species_data/vicina/masked_img/25879.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ]
+    ],
+    "doris": [
+        [
+            13485,
+            "https://zenodo.org/record/2714333/files/CAM040923_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/doris/masked_img/13485.png",
+            {
+                "1": 0,
+                "3": 0,
+                "2": 1,
+                "4": 1,
+                "5": 2,
+                "8": 2,
+                "6": 3,
+                "9": 3,
+                "7": 4,
+                "10": 4
+            }
+        ],
+        [
+            13497,
+            "https://zenodo.org/record/2714333/files/CAM040929_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/doris/masked_img/13497.png",
+            {
+                "1": 0,
+                "3": 0,
+                "2": 1,
+                "4": 1,
+                "5": 2,
+                "8": 2,
+                "6": 3,
+                "9": 3,
+                "7": 4,
+                "10": 4
+            }
+        ],
+        [
+            13816,
+            "https://zenodo.org/record/2714333/files/CAM041089_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/doris/masked_img/13816.png",
+            {
+                "1": 0,
+                "3": 0,
+                "2": 1,
+                "4": 1,
+                "5": 2,
+                "8": 2,
+                "6": 3,
+                "9": 3,
+                "7": 4,
+                "10": 4
+            }
+        ]
+    ],
+    "clysonymus": [
+        [
+            12218,
+            "https://zenodo.org/record/2707828/files/CAM040301_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/clysonymus/masked_img/12218.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ],
+        [
+            12160,
+            "https://zenodo.org/record/2707828/files/CAM040272_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/clysonymus/masked_img/12160.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ],
+        [
+            38820,
+            "https://zenodo.org/record/4291095/files/CAM041462_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/clysonymus/masked_img/38820.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ]
+    ],
+    "pyrrha": [
+        [
+            42062,
+            "https://zenodo.org/record/5561246/files/CAM036396_d.CR2",
+            "DataSet_Butterfly/Minor_species_data/pyrrha/masked_img/42062.png",
+            {}
+        ],
+        [
+            42071,
+            "https://zenodo.org/record/5561246/files/CAM036398_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/pyrrha/masked_img/42071.png",
+            {}
+        ],
+        [
+            42070,
+            "https://zenodo.org/record/5561246/files/CAM036398_d.CR2",
+            "DataSet_Butterfly/Minor_species_data/pyrrha/masked_img/42070.png",
+            {}
+        ]
+    ],
+    "hippocrenis": [
+        [
+            9184,
+            "https://zenodo.org/record/2684906/files/CAM008391_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/hippocrenis/masked_img/9184.png",
+            {
+                "1": 0,
+                "3": 0,
+                "2": 1,
+                "4": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ],
+        [
+            9186,
+            "https://zenodo.org/record/2684906/files/CAM008392_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/hippocrenis/masked_img/9186.png",
+            {
+                "1": 0,
+                "3": 0,
+                "2": 1,
+                "4": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ],
+        [
+            9016,
+            "https://zenodo.org/record/2684906/files/CAM008294_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/hippocrenis/masked_img/9016.png",
+            {
+                "1": 0,
+                "3": 0,
+                "2": 1,
+                "4": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ]
+    ],
+    "willmotti": [
+        [
+            39064,
+            "https://zenodo.org/record/4291095/files/CAM041523_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/willmotti/masked_img/39064.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "8": 2,
+                "6": 3,
+                "9": 3,
+                "7": 4,
+                "10": 4
+            }
+        ],
+        [
+            39063,
+            "https://zenodo.org/record/4291095/files/CAM041523_d.CR2",
+            "DataSet_Butterfly/Minor_species_data/willmotti/masked_img/39063.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "8": 2,
+                "6": 3,
+                "9": 3,
+                "7": 4,
+                "10": 4
+            }
+        ],
+        [
+            20383,
+            "https://zenodo.org/record/4288311/files/19N1484_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/willmotti/masked_img/20383.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "8": 2,
+                "6": 3,
+                "9": 3,
+                "7": 4,
+                "10": 4
+            }
+        ]
+    ],
+    "lisethae": [
+        [
+            25733,
+            "https://zenodo.org/record/2553501/files/CS2377 dorsal.jpeg",
+            "DataSet_Butterfly/Minor_species_data/lisethae/masked_img/25733.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "6": 2,
+                "7": 3,
+                "8": 3
+            }
+        ],
+        [
+            25731,
+            "https://zenodo.org/record/2553501/files/CS2372 dorsal.jpeg",
+            "DataSet_Butterfly/Minor_species_data/lisethae/masked_img/25731.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "6": 2,
+                "7": 3,
+                "8": 3
+            }
+        ],
+        [
+            25915,
+            "https://zenodo.org/record/2553501/files/CS3382 dorsal.jpeg",
+            "DataSet_Butterfly/Minor_species_data/lisethae/masked_img/25915.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "6": 2,
+                "7": 3,
+                "8": 3
+            }
+        ]
+    ],
+    "erato": [
+        [
+            11545,
+            "https://zenodo.org/record/2702457/files/CAM021058_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/erato/masked_img/11545.png",
+            {
+                "1": 0,
+                "3": 0,
+                "2": 1,
+                "4": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ],
+        [
+            10536,
+            "https://zenodo.org/record/2686762/files/CAM009342_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/erato/masked_img/10536.png",
+            {
+                "1": 0,
+                "3": 0,
+                "2": 1,
+                "4": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ],
+        [
+            10556,
+            "https://zenodo.org/record/2686762/files/CAM009352_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/erato/masked_img/10556.png",
+            {
+                "1": 0,
+                "3": 0,
+                "2": 1,
+                "4": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ]
+    ],
+    "bassleri": [
+        [
+            12666,
+            "https://zenodo.org/record/2707828/files/CAM040530_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/bassleri/masked_img/12666.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ],
+        [
+            13531,
+            "https://zenodo.org/record/2714333/files/CAM040946_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/bassleri/masked_img/13531.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ],
+        [
+            12432,
+            "https://zenodo.org/record/2707828/files/CAM040409_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/bassleri/masked_img/12432.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ]
+    ],
+    "(lativitta x notabilis) x lativitta": [
+        [
+            17432,
+            "https://zenodo.org/record/2548678/files/CAM018251_v_whitestandard.CR2",
+            "DataSet_Butterfly/Minor_species_data/(lativitta x notabilis) x lativitta/masked_img/17432.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "6": 2
+            }
+        ],
+        [
+            17143,
+            "https://zenodo.org/record/1748277/files/CAM017972_v_whitestandard.JPG",
+            "DataSet_Butterfly/Minor_species_data/(lativitta x notabilis) x lativitta/masked_img/17143.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "6": 2
+            }
+        ],
+        [
+            17098,
+            "https://zenodo.org/record/1748277/files/CAM017961_v_whitestandard.CR2",
+            "DataSet_Butterfly/Minor_species_data/(lativitta x notabilis) x lativitta/masked_img/17098.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "6": 2
+            }
+        ]
+    ],
+    "plesseni x malleti": [
+        [
+            19005,
+            "https://zenodo.org/record/4153502/files/CAM017313_d.CR2",
+            "DataSet_Butterfly/Minor_species_data/plesseni x malleti/masked_img/19005.png",
+            {
+                "1": 0,
+                "6": 0,
+                "2": 1,
+                "5": 1,
+                "3": 2,
+                "4": 2,
+                "7": 3,
+                "10": 3,
+                "8": 4,
+                "11": 4,
+                "9": 5,
+                "12": 5
+            }
+        ],
+        [
+            4149,
+            "https://zenodo.org/record/3082688/files/CAM016865_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/plesseni x malleti/masked_img/4149.png",
+            {
+                "1": 0,
+                "6": 0,
+                "2": 1,
+                "5": 1,
+                "3": 2,
+                "4": 2,
+                "7": 3,
+                "10": 3,
+                "8": 4,
+                "11": 4,
+                "9": 5,
+                "12": 5
+            }
+        ],
+        [
+            4006,
+            "https://zenodo.org/record/3082688/files/CAM016792_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/plesseni x malleti/masked_img/4006.png",
+            {
+                "1": 0,
+                "6": 0,
+                "2": 1,
+                "5": 1,
+                "3": 2,
+                "4": 2,
+                "7": 3,
+                "10": 3,
+                "8": 4,
+                "11": 4,
+                "9": 5,
+                "12": 5
+            }
+        ]
+    ],
+    "chestertonii": [
+        [
+            6130,
+            "https://zenodo.org/record/2677821/files/CAM000149_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/chestertonii/masked_img/6130.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ],
+        [
+            6079,
+            "https://zenodo.org/record/2677821/files/CAM000122_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/chestertonii/masked_img/6079.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ],
+        [
+            6207,
+            "https://zenodo.org/record/2677821/files/CAM000188_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/chestertonii/masked_img/6207.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ]
+    ],
+    "giulia": [
+        [
+            9979,
+            "https://zenodo.org/record/2686762/files/CAM008881_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/giulia/masked_img/9979.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "5": 1,
+                "3": 2,
+                "6": 2,
+                "7": 3,
+                "9": 3,
+                "8": 4,
+                "10": 4
+            }
+        ],
+        [
+            9983,
+            "https://zenodo.org/record/2686762/files/CAM008883_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/giulia/masked_img/9983.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "5": 1,
+                "3": 2,
+                "6": 2,
+                "7": 3,
+                "9": 3,
+                "8": 4,
+                "10": 4
+            }
+        ],
+        [
+            10143,
+            "https://zenodo.org/record/2686762/files/CAM009019_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/giulia/masked_img/10143.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "5": 1,
+                "3": 2,
+                "6": 2,
+                "7": 3,
+                "9": 3,
+                "8": 4,
+                "10": 4
+            }
+        ]
+    ],
+    "plesseni x (malleti x plesseni)": [
+        [
+            16931,
+            "https://zenodo.org/record/1748277/files/CAM017919_v_whitestandard.JPG",
+            "DataSet_Butterfly/Minor_species_data/plesseni x (malleti x plesseni)/masked_img/16931.png",
+            {
+                "1": 0,
+                "6": 0,
+                "2": 1,
+                "5": 1,
+                "3": 2,
+                "4": 2,
+                "7": 3,
+                "10": 3,
+                "8": 4,
+                "11": 4,
+                "9": 5,
+                "12": 5
+            }
+        ],
+        [
+            16699,
+            "https://zenodo.org/record/1748277/files/CAM017861_v_whitestandard.JPG",
+            "DataSet_Butterfly/Minor_species_data/plesseni x (malleti x plesseni)/masked_img/16699.png",
+            {
+                "1": 0,
+                "6": 0,
+                "2": 1,
+                "5": 1,
+                "3": 2,
+                "4": 2,
+                "7": 3,
+                "10": 3,
+                "8": 4,
+                "11": 4,
+                "9": 5,
+                "12": 5
+            }
+        ],
+        [
+            16698,
+            "https://zenodo.org/record/1748277/files/CAM017861_v_whitestandard.CR2",
+            "DataSet_Butterfly/Minor_species_data/plesseni x (malleti x plesseni)/masked_img/16698.png",
+            {
+                "1": 0,
+                "6": 0,
+                "2": 1,
+                "5": 1,
+                "3": 2,
+                "4": 2,
+                "7": 3,
+                "10": 3,
+                "8": 4,
+                "11": 4,
+                "9": 5,
+                "12": 5
+            }
+        ]
+    ],
+    "nesaea": [
+        [
+            41123,
+            "https://zenodo.org/record/5561246/files/CAM036042_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/nesaea/masked_img/41123.png",
+            {
+                "1": 0,
+                "6": 0,
+                "2": 1,
+                "5": 1,
+                "3": 2,
+                "4": 2,
+                "7": 3,
+                "9": 3,
+                "8": 4,
+                "10": 4
+            }
+        ],
+        [
+            41122,
+            "https://zenodo.org/record/5561246/files/CAM036042_d.CR2",
+            "DataSet_Butterfly/Minor_species_data/nesaea/masked_img/41122.png",
+            {
+                "1": 0,
+                "6": 0,
+                "2": 1,
+                "5": 1,
+                "3": 2,
+                "4": 2,
+                "7": 3,
+                "9": 3,
+                "8": 4,
+                "10": 4
+            }
+        ],
+        [
+            41543,
+            "https://zenodo.org/record/5561246/files/CAM036206_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/nesaea/masked_img/41543.png",
+            {
+                "1": 0,
+                "6": 0,
+                "2": 1,
+                "5": 1,
+                "3": 2,
+                "4": 2,
+                "7": 3,
+                "9": 3,
+                "8": 4,
+                "10": 4
+            }
+        ]
+    ],
+    "plesseni": [
+        [
+            18841,
+            "https://zenodo.org/record/4153502/files/CAM016000_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/plesseni/masked_img/18841.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "6": 2
+            }
+        ],
+        [
+            19070,
+            "https://zenodo.org/record/4153502/files/CAM017622_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/plesseni/masked_img/19070.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "6": 2
+            }
+        ],
+        [
+            3398,
+            "https://zenodo.org/record/3082688/files/CAM016285_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/plesseni/masked_img/3398.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "6": 2
+            }
+        ]
+    ],
+    "lycaste": [
+        [
+            9861,
+            "https://zenodo.org/record/2686762/files/CAM008808_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/lycaste/masked_img/9861.png",
+            {
+                "1": 0,
+                "6": 0,
+                "2": 1,
+                "5": 1,
+                "3": 2,
+                "4": 2,
+                "7": 3,
+                "10": 3,
+                "8": 4,
+                "11": 4,
+                "9": 5,
+                "12": 5
+            }
+        ],
+        [
+            9863,
+            "https://zenodo.org/record/2686762/files/CAM008809_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/lycaste/masked_img/9863.png",
+            {
+                "1": 0,
+                "6": 0,
+                "2": 1,
+                "5": 1,
+                "3": 2,
+                "4": 2,
+                "7": 3,
+                "10": 3,
+                "8": 4,
+                "11": 4,
+                "9": 5,
+                "12": 5
+            }
+        ],
+        [
+            10151,
+            "https://zenodo.org/record/2686762/files/CAM009024_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/lycaste/masked_img/10151.png",
+            {
+                "1": 0,
+                "6": 0,
+                "2": 1,
+                "5": 1,
+                "3": 2,
+                "4": 2,
+                "7": 3,
+                "10": 3,
+                "8": 4,
+                "11": 4,
+                "9": 5,
+                "12": 5
+            }
+        ]
+    ],
+    "eleuchia": [
+        [
+            6140,
+            "https://zenodo.org/record/2677821/files/CAM000154_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/eleuchia/masked_img/6140.png",
+            {
+                "1": 0,
+                "3": 0,
+                "2": 1,
+                "4": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ],
+        [
+            6136,
+            "https://zenodo.org/record/2677821/files/CAM000152_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/eleuchia/masked_img/6136.png",
+            {
+                "1": 0,
+                "3": 0,
+                "2": 1,
+                "4": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ],
+        [
+            6227,
+            "https://zenodo.org/record/2677821/files/CAM000198_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/eleuchia/masked_img/6227.png",
+            {
+                "1": 0,
+                "3": 0,
+                "2": 1,
+                "4": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ]
+    ],
+    "yanetta": [
+        [
+            42087,
+            "https://zenodo.org/record/5561246/files/CAM036402_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/yanetta/masked_img/42087.png",
+            {}
+        ],
+        [
+            41995,
+            "https://zenodo.org/record/5561246/files/CAM036361_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/yanetta/masked_img/41995.png",
+            {}
+        ],
+        [
+            41994,
+            "https://zenodo.org/record/5561246/files/CAM036361_d.CR2",
+            "DataSet_Butterfly/Minor_species_data/yanetta/masked_img/41994.png",
+            {}
+        ]
+    ],
+    "primularis": [
+        [
+            13154,
+            "https://zenodo.org/record/2714333/files/CAM040756_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/primularis/masked_img/13154.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ],
+        [
+            12292,
+            "https://zenodo.org/record/2707828/files/CAM040339_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/primularis/masked_img/12292.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ],
+        [
+            12286,
+            "https://zenodo.org/record/2707828/files/CAM040336_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/primularis/masked_img/12286.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ]
+    ],
+    "hydara x amalfreda": [
+        [
+            11504,
+            "https://zenodo.org/record/2702457/files/CAM021035_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/hydara x amalfreda/masked_img/11504.png",
+            {
+                "1": 0,
+                "3": 0,
+                "2": 1,
+                "4": 1,
+                "5": 2,
+                "6": 2
+            }
+        ],
+        [
+            11494,
+            "https://zenodo.org/record/2702457/files/CAM021030_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/hydara x amalfreda/masked_img/11494.png",
+            {
+                "1": 0,
+                "3": 0,
+                "2": 1,
+                "4": 1,
+                "5": 2,
+                "6": 2
+            }
+        ],
+        [
+            11490,
+            "https://zenodo.org/record/2702457/files/CAM021028_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/hydara x amalfreda/masked_img/11490.png",
+            {
+                "1": 0,
+                "3": 0,
+                "2": 1,
+                "4": 1,
+                "5": 2,
+                "6": 2
+            }
+        ]
+    ],
+    "reductimacula": [
+        [
+            14380,
+            "https://zenodo.org/record/2813153/files/CS004057_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/reductimacula/masked_img/14380.png",
+            {}
+        ],
+        [
+            14382,
+            "https://zenodo.org/record/2813153/files/CS004058_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/reductimacula/masked_img/14382.png",
+            {}
+        ],
+        [
+            14378,
+            "https://zenodo.org/record/2813153/files/CS004052_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/reductimacula/masked_img/14378.png",
+            {}
+        ]
+    ],
+    "rosina": [
+        [
+            7088,
+            "https://zenodo.org/record/2682458/files/CAM000763_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/rosina/masked_img/7088.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ],
+        [
+            7180,
+            "https://zenodo.org/record/2682458/files/CAM000810_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/rosina/masked_img/7180.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ],
+        [
+            7090,
+            "https://zenodo.org/record/2682458/files/CAM000764_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/rosina/masked_img/7090.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ]
+    ],
+    "numata": [
+        [
+            6412,
+            "https://zenodo.org/record/2677821/files/CAM000358_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/numata/masked_img/6412.png",
+            {
+                "1": 0,
+                "6": 0,
+                "2": 1,
+                "5": 1,
+                "3": 2,
+                "4": 2,
+                "7": 3,
+                "10": 3,
+                "8": 4,
+                "11": 4,
+                "9": 5,
+                "12": 5
+            }
+        ],
+        [
+            6350,
+            "https://zenodo.org/record/2677821/files/CAM000262_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/numata/masked_img/6350.png",
+            {
+                "1": 0,
+                "6": 0,
+                "2": 1,
+                "5": 1,
+                "3": 2,
+                "4": 2,
+                "7": 3,
+                "10": 3,
+                "8": 4,
+                "11": 4,
+                "9": 5,
+                "12": 5
+            }
+        ],
+        [
+            6398,
+            "https://zenodo.org/record/2677821/files/CAM000346_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/numata/masked_img/6398.png",
+            {
+                "1": 0,
+                "6": 0,
+                "2": 1,
+                "5": 1,
+                "3": 2,
+                "4": 2,
+                "7": 3,
+                "10": 3,
+                "8": 4,
+                "11": 4,
+                "9": 5,
+                "12": 5
+            }
+        ]
+    ],
+    "cordula": [
+        [
+            25673,
+            "https://zenodo.org/record/2553501/files/CS2167 dorsal.jpeg",
+            "DataSet_Butterfly/Minor_species_data/cordula/masked_img/25673.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "4": 1
+            }
+        ],
+        [
+            25689,
+            "https://zenodo.org/record/2553501/files/CS2258 dorsal.jpeg",
+            "DataSet_Butterfly/Minor_species_data/cordula/masked_img/25689.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "4": 1
+            }
+        ],
+        [
+            26035,
+            "https://zenodo.org/record/2553501/files/CSSTRI007 dorsal.jpeg",
+            "DataSet_Butterfly/Minor_species_data/cordula/masked_img/26035.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "4": 1
+            }
+        ]
+    ],
+    "chioneus": [
+        [
+            6750,
+            "https://zenodo.org/record/2682458/files/CAM000577_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/chioneus/masked_img/6750.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ],
+        [
+            6572,
+            "https://zenodo.org/record/2677821/files/CAM000481_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/chioneus/masked_img/6572.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ],
+        [
+            8540,
+            "https://zenodo.org/record/2684906/files/CAM002993_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/chioneus/masked_img/8540.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ]
+    ],
+    "demophoon": [
+        [
+            38043,
+            "https://zenodo.org/record/2555086/files/F801_d.CR2",
+            "DataSet_Butterfly/Minor_species_data/demophoon/masked_img/38043.png",
+            {}
+        ],
+        [
+            38367,
+            "https://zenodo.org/record/2555086/files/F1063_d.CR2",
+            "DataSet_Butterfly/Minor_species_data/demophoon/masked_img/38367.png",
+            {}
+        ],
+        [
+            38071,
+            "https://zenodo.org/record/2555086/files/F848_d.CR2",
+            "DataSet_Butterfly/Minor_species_data/demophoon/masked_img/38071.png",
+            {}
+        ]
+    ],
+    "dignus": [
+        [
+            11872,
+            "https://zenodo.org/record/2707828/files/CAM040113_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/dignus/masked_img/11872.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ],
+        [
+            11856,
+            "https://zenodo.org/record/2707828/files/CAM040105_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/dignus/masked_img/11856.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ],
+        [
+            11868,
+            "https://zenodo.org/record/2707828/files/CAM040111_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/dignus/masked_img/11868.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ]
+    ],
+    "andromica": [
+        [
+            9156,
+            "https://zenodo.org/record/2684906/files/CAM008377_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/andromica/masked_img/9156.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "4": 1
+            }
+        ],
+        [
+            9276,
+            "https://zenodo.org/record/2684906/files/CAM008443_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/andromica/masked_img/9276.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "4": 1
+            }
+        ],
+        [
+            9154,
+            "https://zenodo.org/record/2684906/files/CAM008376_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/andromica/masked_img/9154.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "4": 1
+            }
+        ]
+    ],
+    "daetina": [
+        [
+            41503,
+            "https://zenodo.org/record/5561246/files/CAM036193_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/daetina/masked_img/41503.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "5": 1,
+                "3": 2,
+                "6": 2,
+                "7": 3,
+                "10": 3,
+                "8": 4,
+                "11": 4,
+                "9": 5,
+                "12": 5
+            }
+        ],
+        [
+            41502,
+            "https://zenodo.org/record/5561246/files/CAM036193_d.CR2",
+            "DataSet_Butterfly/Minor_species_data/daetina/masked_img/41502.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "5": 1,
+                "3": 2,
+                "6": 2,
+                "7": 3,
+                "10": 3,
+                "8": 4,
+                "11": 4,
+                "9": 5,
+                "12": 5
+            }
+        ],
+        [
+            41510,
+            "https://zenodo.org/record/5561246/files/CAM036195_d.CR2",
+            "DataSet_Butterfly/Minor_species_data/daetina/masked_img/41510.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "5": 1,
+                "3": 2,
+                "6": 2,
+                "7": 3,
+                "10": 3,
+                "8": 4,
+                "11": 4,
+                "9": 5,
+                "12": 5
+            }
+        ]
+    ],
+    "alithea": [
+        [
+            12458,
+            "https://zenodo.org/record/2707828/files/CAM040423_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/alithea/masked_img/12458.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ],
+        [
+            12446,
+            "https://zenodo.org/record/2707828/files/CAM040417_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/alithea/masked_img/12446.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ],
+        [
+            9396,
+            "https://zenodo.org/record/2684906/files/CAM008517_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/alithea/masked_img/9396.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ]
+    ],
+    "napoensis": [
+        [
+            13967,
+            "https://zenodo.org/record/2714333/files/CAM041165_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/napoensis/masked_img/13967.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ],
+        [
+            12068,
+            "https://zenodo.org/record/2707828/files/CAM040226_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/napoensis/masked_img/12068.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ],
+        [
+            38988,
+            "https://zenodo.org/record/4291095/files/CAM041504_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/napoensis/masked_img/38988.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ]
+    ],
+    "phyllis": [
+        [
+            42547,
+            "https://zenodo.org/record/5561246/files/CAM036607_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/phyllis/masked_img/42547.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ],
+        [
+            42342,
+            "https://zenodo.org/record/5561246/files/CAM036532_d.CR2",
+            "DataSet_Butterfly/Minor_species_data/phyllis/masked_img/42342.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ],
+        [
+            42499,
+            "https://zenodo.org/record/5561246/files/CAM036583_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/phyllis/masked_img/42499.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ]
+    ],
+    "calathus": [
+        [
+            39092,
+            "https://zenodo.org/record/4291095/files/CAM041530_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/calathus/masked_img/39092.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ],
+        [
+            39087,
+            "https://zenodo.org/record/4291095/files/CAM041529_d.CR2",
+            "DataSet_Butterfly/Minor_species_data/calathus/masked_img/39087.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ],
+        [
+            39091,
+            "https://zenodo.org/record/4291095/files/CAM041530_d.CR2",
+            "DataSet_Butterfly/Minor_species_data/calathus/masked_img/39091.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ]
+    ],
+    "silvana": [
+        [
+            11680,
+            "https://zenodo.org/record/2702457/files/CAM021235_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/silvana/masked_img/11680.png",
+            {
+                "1": 0,
+                "3": 0,
+                "2": 1,
+                "4": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ],
+        [
+            11615,
+            "https://zenodo.org/record/2702457/files/CAM021202_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/silvana/masked_img/11615.png",
+            {
+                "1": 0,
+                "3": 0,
+                "2": 1,
+                "4": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ],
+        [
+            11450,
+            "https://zenodo.org/record/2702457/files/CAM021006_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/silvana/masked_img/11450.png",
+            {
+                "1": 0,
+                "3": 0,
+                "2": 1,
+                "4": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ]
+    ],
+    "vulcanus": [
+        [
+            15178,
+            "https://zenodo.org/record/4289223/files/15N123_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/vulcanus/masked_img/15178.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "4": 1
+            }
+        ],
+        [
+            5961,
+            "https://zenodo.org/record/2677821/files/CAM000063_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/vulcanus/masked_img/5961.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "4": 1
+            }
+        ],
+        [
+            15252,
+            "https://zenodo.org/record/4289223/files/16N080_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/vulcanus/masked_img/15252.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "4": 1
+            }
+        ]
+    ],
+    "melpomene x thelxiope": [
+        [
+            6436,
+            "https://zenodo.org/record/2677821/files/CAM000407_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/melpomene x thelxiope/masked_img/6436.png",
+            {
+                "1": 0,
+                "6": 0,
+                "2": 1,
+                "5": 1,
+                "3": 2,
+                "4": 2,
+                "7": 3,
+                "10": 3,
+                "8": 4,
+                "11": 4,
+                "9": 5,
+                "12": 5
+            }
+        ],
+        [
+            8263,
+            "https://zenodo.org/record/2682669/files/CAM001353_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/melpomene x thelxiope/masked_img/8263.png",
+            {
+                "1": 0,
+                "6": 0,
+                "2": 1,
+                "5": 1,
+                "3": 2,
+                "4": 2,
+                "7": 3,
+                "10": 3,
+                "8": 4,
+                "11": 4,
+                "9": 5,
+                "12": 5
+            }
+        ],
+        [
+            7884,
+            "https://zenodo.org/record/2682669/files/CAM001163_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/melpomene x thelxiope/masked_img/7884.png",
+            {
+                "1": 0,
+                "6": 0,
+                "2": 1,
+                "5": 1,
+                "3": 2,
+                "4": 2,
+                "7": 3,
+                "10": 3,
+                "8": 4,
+                "11": 4,
+                "9": 5,
+                "12": 5
+            }
+        ]
+    ],
+    "linaresi": [
+        [
+            25835,
+            "https://zenodo.org/record/2553501/files/CS3049 dorsal.jpeg",
+            "DataSet_Butterfly/Minor_species_data/linaresi/masked_img/25835.png",
+            {
+                "1": 0,
+                "3": 0,
+                "2": 1,
+                "4": 1,
+                "5": 2,
+                "6": 2
+            }
+        ],
+        [
+            25903,
+            "https://zenodo.org/record/2553501/files/CS3367 dorsal.jpeg",
+            "DataSet_Butterfly/Minor_species_data/linaresi/masked_img/25903.png",
+            {
+                "1": 0,
+                "3": 0,
+                "2": 1,
+                "4": 1,
+                "5": 2,
+                "6": 2
+            }
+        ],
+        [
+            25975,
+            "https://zenodo.org/record/2553501/files/CS3760 dorsal.jpeg",
+            "DataSet_Butterfly/Minor_species_data/linaresi/masked_img/25975.png",
+            {
+                "1": 0,
+                "3": 0,
+                "2": 1,
+                "4": 1,
+                "5": 2,
+                "6": 2
+            }
+        ]
+    ],
+    "malleti x (plesseni x malleti)": [
+        [
+            5738,
+            "https://zenodo.org/record/3082688/files/CAM017916_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/malleti x (plesseni x malleti)/masked_img/5738.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "8": 2,
+                "6": 3,
+                "9": 3,
+                "7": 4,
+                "10": 4
+            }
+        ],
+        [
+            5807,
+            "https://zenodo.org/record/3082688/files/CAM017967_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/malleti x (plesseni x malleti)/masked_img/5807.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "8": 2,
+                "6": 3,
+                "9": 3,
+                "7": 4,
+                "10": 4
+            }
+        ],
+        [
+            17293,
+            "https://zenodo.org/record/2548678/files/CAM018216_d_whitestandard.JPG",
+            "DataSet_Butterfly/Minor_species_data/malleti x (plesseni x malleti)/masked_img/17293.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "8": 2,
+                "6": 3,
+                "9": 3,
+                "7": 4,
+                "10": 4
+            }
+        ]
+    ],
+    "thelxinoe": [
+        [
+            26062,
+            "https://zenodo.org/record/2553977/files/8628-UP.jpg",
+            "DataSet_Butterfly/Minor_species_data/thelxinoe/masked_img/26062.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ],
+        [
+            26060,
+            "https://zenodo.org/record/2553977/files/8624-UP.jpg",
+            "DataSet_Butterfly/Minor_species_data/thelxinoe/masked_img/26060.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ],
+        [
+            9581,
+            "https://zenodo.org/record/2686762/files/CAM008624_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/thelxinoe/masked_img/9581.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ]
+    ],
+    "ssp.nov.P": [
+        [
+            3569,
+            "https://zenodo.org/record/3082688/files/CAM016429_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/ssp.nov.P/masked_img/3569.png",
+            {
+                "1": 0,
+                "3": 0,
+                "2": 1,
+                "4": 1,
+                "5": 2,
+                "8": 2,
+                "6": 3,
+                "9": 3,
+                "7": 4,
+                "10": 4
+            }
+        ],
+        [
+            25439,
+            "https://zenodo.org/record/2552371/files/16218d.JPG",
+            "DataSet_Butterfly/Minor_species_data/ssp.nov.P/masked_img/25439.png",
+            {
+                "1": 0,
+                "3": 0,
+                "2": 1,
+                "4": 1,
+                "5": 2,
+                "8": 2,
+                "6": 3,
+                "9": 3,
+                "7": 4,
+                "10": 4
+            }
+        ],
+        [
+            3571,
+            "https://zenodo.org/record/3082688/files/CAM016430_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/ssp.nov.P/masked_img/3571.png",
+            {
+                "1": 0,
+                "3": 0,
+                "2": 1,
+                "4": 1,
+                "5": 2,
+                "8": 2,
+                "6": 3,
+                "9": 3,
+                "7": 4,
+                "10": 4
+            }
+        ]
+    ],
+    "hydara x petiverana": [
+        [
+            10844,
+            "https://zenodo.org/record/2686762/files/CAM009551_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/hydara x petiverana/masked_img/10844.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "4": 1
+            }
+        ],
+        [
+            10742,
+            "https://zenodo.org/record/2686762/files/CAM009500_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/hydara x petiverana/masked_img/10742.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "4": 1
+            }
+        ],
+        [
+            10768,
+            "https://zenodo.org/record/2686762/files/CAM009513_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/hydara x petiverana/masked_img/10768.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "4": 1
+            }
+        ]
+    ],
+    "petiverana": [
+        [
+            10828,
+            "https://zenodo.org/record/2686762/files/CAM009543_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/petiverana/masked_img/10828.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ],
+        [
+            10792,
+            "https://zenodo.org/record/2686762/files/CAM009525_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/petiverana/masked_img/10792.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ],
+        [
+            10746,
+            "https://zenodo.org/record/2686762/files/CAM009502_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/petiverana/masked_img/10746.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ]
+    ],
+    "etylus": [
+        [
+            10221,
+            "https://zenodo.org/record/2686762/files/CAM009126_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/etylus/masked_img/10221.png",
+            {
+                "1": 0,
+                "3": 0,
+                "2": 1,
+                "4": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ],
+        [
+            10225,
+            "https://zenodo.org/record/2686762/files/CAM009128_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/etylus/masked_img/10225.png",
+            {
+                "1": 0,
+                "3": 0,
+                "2": 1,
+                "4": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ],
+        [
+            10223,
+            "https://zenodo.org/record/2686762/files/CAM009127_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/etylus/masked_img/10223.png",
+            {
+                "1": 0,
+                "3": 0,
+                "2": 1,
+                "4": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ]
+    ],
+    "hierax": [
+        [
+            14115,
+            "https://zenodo.org/record/2714333/files/CAM041239_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/hierax/masked_img/14115.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "5": 1,
+                "3": 2,
+                "6": 2,
+                "7": 3,
+                "9": 3,
+                "8": 4,
+                "10": 4
+            }
+        ],
+        [
+            14119,
+            "https://zenodo.org/record/2714333/files/CAM041241_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/hierax/masked_img/14119.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "5": 1,
+                "3": 2,
+                "6": 2,
+                "7": 3,
+                "9": 3,
+                "8": 4,
+                "10": 4
+            }
+        ],
+        [
+            14121,
+            "https://zenodo.org/record/2714333/files/CAM041242_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/hierax/masked_img/14121.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "5": 1,
+                "3": 2,
+                "6": 2,
+                "7": 3,
+                "9": 3,
+                "8": 4,
+                "10": 4
+            }
+        ]
+    ],
+    "daeta": [
+        [
+            42398,
+            "https://zenodo.org/record/5561246/files/CAM036546_d.CR2",
+            "DataSet_Butterfly/Minor_species_data/daeta/masked_img/42398.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "5": 1,
+                "3": 2,
+                "6": 2,
+                "7": 3,
+                "10": 3,
+                "8": 4,
+                "11": 4,
+                "9": 5,
+                "12": 5
+            }
+        ],
+        [
+            42007,
+            "https://zenodo.org/record/5561246/files/CAM036364_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/daeta/masked_img/42007.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "5": 1,
+                "3": 2,
+                "6": 2,
+                "7": 3,
+                "10": 3,
+                "8": 4,
+                "11": 4,
+                "9": 5,
+                "12": 5
+            }
+        ]
+    ],
+    "amalfreda": [
+        [
+            11482,
+            "https://zenodo.org/record/2702457/files/CAM021022_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/amalfreda/masked_img/11482.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "6": 2
+            }
+        ],
+        [
+            11516,
+            "https://zenodo.org/record/2702457/files/CAM021042_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/amalfreda/masked_img/11516.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "6": 2
+            }
+        ],
+        [
+            11484,
+            "https://zenodo.org/record/2702457/files/CAM021023_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/amalfreda/masked_img/11484.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "6": 2
+            }
+        ]
+    ],
+    "laphria": [
+        [
+            41771,
+            "https://zenodo.org/record/5561246/files/CAM036279_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/laphria/masked_img/41771.png",
+            {}
+        ],
+        [
+            41770,
+            "https://zenodo.org/record/5561246/files/CAM036279_d.CR2",
+            "DataSet_Butterfly/Minor_species_data/laphria/masked_img/41770.png",
+            {}
+        ]
+    ],
+    "salapia": [
+        [
+            11742,
+            "https://zenodo.org/record/2707828/files/CAM040029_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/salapia/masked_img/11742.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2,
+                "7": 3,
+                "8": 3,
+                "9": 4,
+                "10": 4
+            }
+        ],
+        [
+            11740,
+            "https://zenodo.org/record/2707828/files/CAM040028_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/salapia/masked_img/11740.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2,
+                "7": 3,
+                "8": 3,
+                "9": 4,
+                "10": 4
+            }
+        ],
+        [
+            8718,
+            "https://zenodo.org/record/2684906/files/CAM008135_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/salapia/masked_img/8718.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2,
+                "7": 3,
+                "8": 3,
+                "9": 4,
+                "10": 4
+            }
+        ]
+    ],
+    "sprucei": [
+        [
+            12308,
+            "https://zenodo.org/record/2707828/files/CAM040347_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/sprucei/masked_img/12308.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ],
+        [
+            14262,
+            "https://zenodo.org/record/2714333/files/CAM041313_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/sprucei/masked_img/14262.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ],
+        [
+            14338,
+            "https://zenodo.org/record/2714333/files/CAM041351_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/sprucei/masked_img/14338.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ]
+    ],
+    "lysimnia": [
+        [
+            42407,
+            "https://zenodo.org/record/5561246/files/CAM036548_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/lysimnia/masked_img/42407.png",
+            {
+                "1": 0,
+                "5": 1,
+                "2": 1,
+                "3": 2,
+                "4": 2,
+                "7": 3,
+                "10": 3,
+                "8": 4,
+                "11": 4,
+                "9": 5,
+                "12": 5
+            }
+        ],
+        [
+            42390,
+            "https://zenodo.org/record/5561246/files/CAM036544_d.CR2",
+            "DataSet_Butterfly/Minor_species_data/lysimnia/masked_img/42390.png",
+            {
+                "1": 0,
+                "5": 1,
+                "2": 1,
+                "3": 2,
+                "4": 2,
+                "7": 3,
+                "10": 3,
+                "8": 4,
+                "11": 4,
+                "9": 5,
+                "12": 5
+            }
+        ],
+        [
+            42163,
+            "https://zenodo.org/record/5561246/files/CAM036460_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/lysimnia/masked_img/42163.png",
+            {
+                "1": 0,
+                "5": 1,
+                "2": 1,
+                "3": 2,
+                "4": 2,
+                "7": 3,
+                "10": 3,
+                "8": 4,
+                "11": 4,
+                "9": 5,
+                "12": 5
+            }
+        ]
+    ],
+    "sotericus": [
+        [
+            13848,
+            "https://zenodo.org/record/2714333/files/CAM041105_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/sotericus/masked_img/13848.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ],
+        [
+            39263,
+            "https://zenodo.org/record/4291095/files/CAM041574_d.CR2",
+            "DataSet_Butterfly/Minor_species_data/sotericus/masked_img/39263.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ],
+        [
+            14141,
+            "https://zenodo.org/record/2714333/files/CAM041252_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/sotericus/masked_img/14141.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ]
+    ],
+    "nigrippus": [
+        [
+            12674,
+            "https://zenodo.org/record/2707828/files/CAM040534_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/nigrippus/masked_img/12674.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "8": 2,
+                "6": 3,
+                "9": 3,
+                "7": 4,
+                "10": 4
+            }
+        ],
+        [
+            13377,
+            "https://zenodo.org/record/2714333/files/CAM040868_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/nigrippus/masked_img/13377.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "8": 2,
+                "6": 3,
+                "9": 3,
+                "7": 4,
+                "10": 4
+            }
+        ],
+        [
+            13375,
+            "https://zenodo.org/record/2714333/files/CAM040867_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/nigrippus/masked_img/13375.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "8": 2,
+                "6": 3,
+                "9": 3,
+                "7": 4,
+                "10": 4
+            }
+        ]
+    ],
+    "cydno": [
+        [
+            25667,
+            "https://zenodo.org/record/2553501/files/CS2081 dorsal.jpeg",
+            "DataSet_Butterfly/Minor_species_data/cydno/masked_img/25667.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ],
+        [
+            25661,
+            "https://zenodo.org/record/2553501/files/CS2076 dorsal.jpeg",
+            "DataSet_Butterfly/Minor_species_data/cydno/masked_img/25661.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ],
+        [
+            25679,
+            "https://zenodo.org/record/2553501/files/CS2223 dorsal.jpeg",
+            "DataSet_Butterfly/Minor_species_data/cydno/masked_img/25679.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ]
+    ],
+    "(latRo x notabilis) x notabilis": [
+        [
+            15699,
+            "https://zenodo.org/record/1748277/files/CAM017559_d_whitestandard.JPG",
+            "DataSet_Butterfly/Minor_species_data/(latRo x notabilis) x notabilis/masked_img/15699.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ],
+        [
+            15698,
+            "https://zenodo.org/record/1748277/files/CAM017559_d_whitestandard.CR2",
+            "DataSet_Butterfly/Minor_species_data/(latRo x notabilis) x notabilis/masked_img/15698.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ],
+        [
+            5302,
+            "https://zenodo.org/record/3082688/files/CAM017559_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/(latRo x notabilis) x notabilis/masked_img/5302.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ]
+    ],
+    "(lativitta x notabilis) x notabilis": [
+        [
+            11024,
+            "https://zenodo.org/record/2702457/files/CAM018286_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/(lativitta x notabilis) x notabilis/masked_img/11024.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ],
+        [
+            17364,
+            "https://zenodo.org/record/2548678/files/CAM018234_d_whitestandard.CR2",
+            "DataSet_Butterfly/Minor_species_data/(lativitta x notabilis) x notabilis/masked_img/17364.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ],
+        [
+            17545,
+            "https://zenodo.org/record/2548678/files/CAM018279_v_whitestandard.JPG",
+            "DataSet_Butterfly/Minor_species_data/(lativitta x notabilis) x notabilis/masked_img/17545.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ]
+    ],
+    "weymeri": [
+        [
+            6236,
+            "https://zenodo.org/record/2677821/files/CAM000204_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/weymeri/masked_img/6236.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ],
+        [
+            25641,
+            "https://zenodo.org/record/2553501/files/CS1690 dorsal.jpeg",
+            "DataSet_Butterfly/Minor_species_data/weymeri/masked_img/25641.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ],
+        [
+            6268,
+            "https://zenodo.org/record/2677821/files/CAM000221_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/weymeri/masked_img/6268.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ]
+    ],
+    "weymeri f. gustavi": [
+        [
+            26025,
+            "https://zenodo.org/record/2553501/files/CS950 dorsal.jpeg",
+            "DataSet_Butterfly/Minor_species_data/weymeri f. gustavi/masked_img/26025.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "4": 1
+            }
+        ],
+        [
+            26029,
+            "https://zenodo.org/record/2553501/files/CS953 dorsal.jpeg",
+            "DataSet_Butterfly/Minor_species_data/weymeri f. gustavi/masked_img/26029.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "4": 1
+            }
+        ],
+        [
+            25645,
+            "https://zenodo.org/record/2553501/files/CS1914 dorsal.jpeg",
+            "DataSet_Butterfly/Minor_species_data/weymeri f. gustavi/masked_img/25645.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "4": 1
+            }
+        ]
+    ],
+    "bellula": [
+        [
+            11796,
+            "https://zenodo.org/record/2707828/files/CAM040058_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/bellula/masked_img/11796.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ],
+        [
+            25691,
+            "https://zenodo.org/record/2553501/files/CS226 dorsal.jpeg",
+            "DataSet_Butterfly/Minor_species_data/bellula/masked_img/25691.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ],
+        [
+            11840,
+            "https://zenodo.org/record/2707828/files/CAM040088_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/bellula/masked_img/11840.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ]
+    ],
+    "flavescens": [
+        [
+            38932,
+            "https://zenodo.org/record/4291095/files/CAM041490_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/flavescens/masked_img/38932.png",
+            {
+                "1": 0,
+                "3": 0,
+                "2": 1,
+                "4": 1,
+                "5": 2,
+                "6": 2
+            }
+        ],
+        [
+            39188,
+            "https://zenodo.org/record/4291095/files/CAM041555_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/flavescens/masked_img/39188.png",
+            {
+                "1": 0,
+                "3": 0,
+                "2": 1,
+                "4": 1,
+                "5": 2,
+                "6": 2
+            }
+        ],
+        [
+            11528,
+            "https://zenodo.org/record/2702457/files/CAM021048_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/flavescens/masked_img/11528.png",
+            {
+                "1": 0,
+                "3": 0,
+                "2": 1,
+                "4": 1,
+                "5": 2,
+                "6": 2
+            }
+        ]
+    ],
+    "panamensis": [
+        [
+            10091,
+            "https://zenodo.org/record/2686762/files/CAM008993_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/panamensis/masked_img/10091.png",
+            {
+                "1": 0,
+                "8": 0,
+                "2": 1,
+                "7": 1,
+                "3": 2,
+                "6": 2,
+                "4": 3,
+                "5": 3,
+                "9": 4,
+                "12": 4,
+                "10": 5,
+                "13": 5,
+                "11": 6,
+                "14": 6
+            }
+        ],
+        [
+            10087,
+            "https://zenodo.org/record/2686762/files/CAM008991_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/panamensis/masked_img/10087.png",
+            {
+                "1": 0,
+                "8": 0,
+                "2": 1,
+                "7": 1,
+                "3": 2,
+                "6": 2,
+                "4": 3,
+                "5": 3,
+                "9": 4,
+                "12": 4,
+                "10": 5,
+                "13": 5,
+                "11": 6,
+                "14": 6
+            }
+        ],
+        [
+            10083,
+            "https://zenodo.org/record/2686762/files/CAM008989_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/panamensis/masked_img/10083.png",
+            {
+                "1": 0,
+                "8": 0,
+                "2": 1,
+                "7": 1,
+                "3": 2,
+                "6": 2,
+                "4": 3,
+                "5": 3,
+                "9": 4,
+                "12": 4,
+                "10": 5,
+                "13": 5,
+                "11": 6,
+                "14": 6
+            }
+        ]
+    ],
+    "tristero": [
+        [
+            11708,
+            "https://zenodo.org/record/2707828/files/CAM040012_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/tristero/masked_img/11708.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ],
+        [
+            11712,
+            "https://zenodo.org/record/2707828/files/CAM040014_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/tristero/masked_img/11712.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ],
+        [
+            11710,
+            "https://zenodo.org/record/2707828/files/CAM040013_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/tristero/masked_img/11710.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ]
+    ],
+    "zelinde": [
+        [
+            25695,
+            "https://zenodo.org/record/2553501/files/CS2261 dorsal.jpeg",
+            "DataSet_Butterfly/Minor_species_data/zelinde/masked_img/25695.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ],
+        [
+            25603,
+            "https://zenodo.org/record/2553501/files/CS1033 dorsal.jpeg",
+            "DataSet_Butterfly/Minor_species_data/zelinde/masked_img/25603.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ],
+        [
+            25693,
+            "https://zenodo.org/record/2553501/files/CS2260 dorsal.jpeg",
+            "DataSet_Butterfly/Minor_species_data/zelinde/masked_img/25693.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ]
+    ],
+    "hydara": [
+        [
+            10117,
+            "https://zenodo.org/record/2686762/files/CAM009006_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/hydara/masked_img/10117.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "4": 1
+            }
+        ],
+        [
+            10886,
+            "https://zenodo.org/record/2686762/files/CAM009572_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/hydara/masked_img/10886.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "4": 1
+            }
+        ],
+        [
+            6554,
+            "https://zenodo.org/record/2677821/files/CAM000472_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/hydara/masked_img/6554.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "4": 1
+            }
+        ]
+    ],
+    "abida": [
+        [
+            9925,
+            "https://zenodo.org/record/2686762/files/CAM008849_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/abida/masked_img/9925.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ],
+        [
+            9927,
+            "https://zenodo.org/record/2686762/files/CAM008850_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/abida/masked_img/9927.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ],
+        [
+            9897,
+            "https://zenodo.org/record/2686762/files/CAM008828_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/abida/masked_img/9897.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ]
+    ],
+    "euphrasius": [
+        [
+            8712,
+            "https://zenodo.org/record/2684906/files/CAM008131_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/euphrasius/masked_img/8712.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "5": 1,
+                "3": 2,
+                "6": 2,
+                "7": 3,
+                "9": 3,
+                "8": 4,
+                "10": 4
+            }
+        ],
+        [
+            10610,
+            "https://zenodo.org/record/2686762/files/CAM009406_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/euphrasius/masked_img/10610.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "5": 1,
+                "3": 2,
+                "6": 2,
+                "7": 3,
+                "9": 3,
+                "8": 4,
+                "10": 4
+            }
+        ],
+        [
+            10606,
+            "https://zenodo.org/record/2686762/files/CAM009404_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/euphrasius/masked_img/10606.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "5": 1,
+                "3": 2,
+                "6": 2,
+                "7": 3,
+                "9": 3,
+                "8": 4,
+                "10": 4
+            }
+        ]
+    ],
+    "idae": [
+        [
+            9867,
+            "https://zenodo.org/record/2686762/files/CAM008811_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/idae/masked_img/9867.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "5": 1,
+                "3": 2,
+                "6": 2,
+                "7": 3,
+                "9": 3,
+                "8": 4,
+                "10": 4
+            }
+        ],
+        [
+            9957,
+            "https://zenodo.org/record/2686762/files/CAM008868_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/idae/masked_img/9957.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "5": 1,
+                "3": 2,
+                "6": 2,
+                "7": 3,
+                "9": 3,
+                "8": 4,
+                "10": 4
+            }
+        ],
+        [
+            9865,
+            "https://zenodo.org/record/2686762/files/CAM008810_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/idae/masked_img/9865.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "5": 1,
+                "3": 2,
+                "6": 2,
+                "7": 3,
+                "9": 3,
+                "8": 4,
+                "10": 4
+            }
+        ]
+    ],
+    "sara": [
+        [
+            14147,
+            "https://zenodo.org/record/2714333/files/CAM041255_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/sara/masked_img/14147.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ],
+        [
+            26168,
+            "https://zenodo.org/record/2553977/files/CAM050014_S3_2_IMG_8485.jpeg",
+            "DataSet_Butterfly/Minor_species_data/sara/masked_img/26168.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ],
+        [
+            26148,
+            "https://zenodo.org/record/2553977/files/CAM050027_S4_2_Hs_mut_D_8451_wb_cut.tif",
+            "DataSet_Butterfly/Minor_species_data/sara/masked_img/26148.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ]
+    ],
+    "(plesseni x malleti) x malleti": [
+        [
+            16479,
+            "https://zenodo.org/record/1748277/files/CAM017805_v_whitestandard.JPG",
+            "DataSet_Butterfly/Minor_species_data/(plesseni x malleti) x malleti/masked_img/16479.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "7": 2,
+                "8": 2,
+                "5": 3,
+                "6": 3
+            }
+        ],
+        [
+            16647,
+            "https://zenodo.org/record/1748277/files/CAM017848_v_whitestandard.JPG",
+            "DataSet_Butterfly/Minor_species_data/(plesseni x malleti) x malleti/masked_img/16647.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "7": 2,
+                "8": 2,
+                "5": 3,
+                "6": 3
+            }
+        ],
+        [
+            17111,
+            "https://zenodo.org/record/1748277/files/CAM017964_v_whitestandard.JPG",
+            "DataSet_Butterfly/Minor_species_data/(plesseni x malleti) x malleti/masked_img/17111.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "7": 2,
+                "8": 2,
+                "5": 3,
+                "6": 3
+            }
+        ]
+    ],
+    "malleti x plesseni": [
+        [
+            15667,
+            "https://zenodo.org/record/1748277/files/CAM017551_d_whitestandard.JPG",
+            "DataSet_Butterfly/Minor_species_data/malleti x plesseni/masked_img/15667.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "8": 2,
+                "6": 3,
+                "9": 3,
+                "7": 4,
+                "10": 4
+            }
+        ],
+        [
+            15670,
+            "https://zenodo.org/record/1748277/files/CAM017552_d_whitestandard.CR2",
+            "DataSet_Butterfly/Minor_species_data/malleti x plesseni/masked_img/15670.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "8": 2,
+                "6": 3,
+                "9": 3,
+                "7": 4,
+                "10": 4
+            }
+        ],
+        [
+            15286,
+            "https://zenodo.org/record/1748277/files/CAM017456_d_whitestandard.CR2",
+            "DataSet_Butterfly/Minor_species_data/malleti x plesseni/masked_img/15286.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "8": 2,
+                "6": 3,
+                "9": 3,
+                "7": 4,
+                "10": 4
+            }
+        ]
+    ],
+    "florencia": [
+        [
+            25999,
+            "https://zenodo.org/record/2553501/files/CS473 dorsal.jpeg",
+            "DataSet_Butterfly/Minor_species_data/florencia/masked_img/25999.png",
+            {
+                "1": 0,
+                "3": 0,
+                "2": 1,
+                "4": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ],
+        [
+            25707,
+            "https://zenodo.org/record/2553501/files/CS2337 dorsal.jpeg",
+            "DataSet_Butterfly/Minor_species_data/florencia/masked_img/25707.png",
+            {
+                "1": 0,
+                "3": 0,
+                "2": 1,
+                "4": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ],
+        [
+            25711,
+            "https://zenodo.org/record/2553501/files/CS2341 dorsal.jpeg",
+            "DataSet_Butterfly/Minor_species_data/florencia/masked_img/25711.png",
+            {
+                "1": 0,
+                "3": 0,
+                "2": 1,
+                "4": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ]
+    ],
+    "decumana": [
+        [
+            10011,
+            "https://zenodo.org/record/2686762/files/CAM008952_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/decumana/masked_img/10011.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "6": 1,
+                "4": 2,
+                "7": 2,
+                "5": 3,
+                "8": 3
+            }
+        ],
+        [
+            8556,
+            "https://zenodo.org/record/2684906/files/CAM008001_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/decumana/masked_img/8556.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "6": 1,
+                "4": 2,
+                "7": 2,
+                "5": 3,
+                "8": 3
+            }
+        ]
+    ],
+    "macrinus": [
+        [
+            9889,
+            "https://zenodo.org/record/2686762/files/CAM008822_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/macrinus/masked_img/9889.png",
+            {
+                "1": 0,
+                "6": 0,
+                "2": 1,
+                "5": 1,
+                "3": 2,
+                "4": 2,
+                "7": 3,
+                "9": 3,
+                "8": 4,
+                "10": 4
+            }
+        ],
+        [
+            9887,
+            "https://zenodo.org/record/2686762/files/CAM008821_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/macrinus/masked_img/9887.png",
+            {
+                "1": 0,
+                "6": 0,
+                "2": 1,
+                "5": 1,
+                "3": 2,
+                "4": 2,
+                "7": 3,
+                "9": 3,
+                "8": 4,
+                "10": 4
+            }
+        ]
+    ],
+    "aglaope": [
+        [
+            9732,
+            "https://zenodo.org/record/2686762/files/CAM008702_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/aglaope/masked_img/9732.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "8": 2,
+                "6": 3,
+                "9": 3,
+                "7": 4,
+                "10": 4
+            }
+        ],
+        [
+            9706,
+            "https://zenodo.org/record/2686762/files/CAM008689_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/aglaope/masked_img/9706.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "8": 2,
+                "6": 3,
+                "9": 3,
+                "7": 4,
+                "10": 4
+            }
+        ]
+    ],
+    "eximius": [
+        [
+            12456,
+            "https://zenodo.org/record/2707828/files/CAM040422_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/eximius/masked_img/12456.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "8": 2,
+                "6": 3,
+                "9": 3,
+                "7": 4,
+                "10": 4
+            }
+        ],
+        [
+            12452,
+            "https://zenodo.org/record/2707828/files/CAM040420_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/eximius/masked_img/12452.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "8": 2,
+                "6": 3,
+                "9": 3,
+                "7": 4,
+                "10": 4
+            }
+        ]
+    ],
+    "isthmia": [
+        [
+            8662,
+            "https://zenodo.org/record/2684906/files/CAM008091_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/isthmia/masked_img/8662.png",
+            {
+                "1": 0,
+                "6": 0,
+                "2": 1,
+                "4": 1,
+                "3": 2,
+                "5": 2,
+                "7": 3,
+                "9": 3,
+                "8": 4,
+                "10": 4
+            }
+        ],
+        [
+            8642,
+            "https://zenodo.org/record/2684906/files/CAM008058_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/isthmia/masked_img/8642.png",
+            {
+                "1": 0,
+                "6": 0,
+                "2": 1,
+                "4": 1,
+                "3": 2,
+                "5": 2,
+                "7": 3,
+                "9": 3,
+                "8": 4,
+                "10": 4
+            }
+        ]
+    ],
+    "carbo": [
+        [
+            9827,
+            "https://zenodo.org/record/2686762/files/CAM008750_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/carbo/masked_img/9827.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ],
+        [
+            25341,
+            "https://zenodo.org/record/2552371/files/8750d.jpg",
+            "DataSet_Butterfly/Minor_species_data/carbo/masked_img/25341.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ]
+    ],
+    "malleti x vicina": [
+        [
+            14366,
+            "https://zenodo.org/record/2813153/files/CS004040_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/malleti x vicina/masked_img/14366.png",
+            {}
+        ],
+        [
+            14368,
+            "https://zenodo.org/record/2813153/files/CS004041_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/malleti x vicina/masked_img/14368.png",
+            {}
+        ]
+    ],
+    "lyra": [
+        [
+            9158,
+            "https://zenodo.org/record/2684906/files/CAM008378_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/lyra/masked_img/9158.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "6": 2
+            }
+        ],
+        [
+            9160,
+            "https://zenodo.org/record/2684906/files/CAM008379_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/lyra/masked_img/9160.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "6": 2
+            }
+        ]
+    ],
+    "agna": [
+        [
+            9891,
+            "https://zenodo.org/record/2686762/files/CAM008823_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/agna/masked_img/9891.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ],
+        [
+            8638,
+            "https://zenodo.org/record/2684906/files/CAM008056_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/agna/masked_img/8638.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ]
+    ],
+    "lenaeus": [
+        [
+            10614,
+            "https://zenodo.org/record/2686762/files/CAM009408_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/lenaeus/masked_img/10614.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ],
+        [
+            10618,
+            "https://zenodo.org/record/2686762/files/CAM009410_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/lenaeus/masked_img/10618.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ]
+    ],
+    "wallacei": [
+        [
+            6400,
+            "https://zenodo.org/record/2677821/files/CAM000352_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/wallacei/masked_img/6400.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "6": 2
+            }
+        ],
+        [
+            11530,
+            "https://zenodo.org/record/2702457/files/CAM021049_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/wallacei/masked_img/11530.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "6": 2
+            }
+        ]
+    ],
+    "corena": [
+        [
+            39184,
+            "https://zenodo.org/record/4291095/files/CAM041553_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/corena/masked_img/39184.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ],
+        [
+            39183,
+            "https://zenodo.org/record/4291095/files/CAM041553_d.CR2",
+            "DataSet_Butterfly/Minor_species_data/corena/masked_img/39183.png",
+            {
+                "1": 0,
+                "4": 0,
+                "2": 1,
+                "3": 1,
+                "5": 2,
+                "7": 2,
+                "6": 3,
+                "8": 3
+            }
+        ]
+    ],
+    "sapho": [
+        [
+            6674,
+            "https://zenodo.org/record/2682458/files/CAM000536_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/sapho/masked_img/6674.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ],
+        [
+            6346,
+            "https://zenodo.org/record/2677821/files/CAM000260_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/sapho/masked_img/6346.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ]
+    ],
+    "notilla": [
+        [
+            9923,
+            "https://zenodo.org/record/2686762/files/CAM008847_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/notilla/masked_img/9923.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ],
+        [
+            9921,
+            "https://zenodo.org/record/2686762/files/CAM008846_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/notilla/masked_img/9921.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "5": 1,
+                "4": 2,
+                "6": 2
+            }
+        ]
+    ],
+    "dignus x lativitta": [
+        [
+            11864,
+            "https://zenodo.org/record/2707828/files/CAM040109_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/dignus x lativitta/masked_img/11864.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "4": 1
+            }
+        ],
+        [
+            11860,
+            "https://zenodo.org/record/2707828/files/CAM040107_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/dignus x lativitta/masked_img/11860.png",
+            {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "4": 1
+            }
+        ]
+    ],
+    "hygiana": [
+        [
+            13457,
+            "https://zenodo.org/record/2714333/files/CAM040909_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/hygiana/masked_img/13457.png",
+            {
+                "1": 0,
+                "6": 0,
+                "2": 1,
+                "5": 1,
+                "3": 2,
+                "4": 2,
+                "7": 3,
+                "9": 3,
+                "8": 4,
+                "10": 4
+            }
+        ],
+        [
+            13455,
+            "https://zenodo.org/record/2714333/files/CAM040908_d.JPG",
+            "DataSet_Butterfly/Minor_species_data/hygiana/masked_img/13455.png",
+            {
+                "1": 0,
+                "6": 0,
+                "2": 1,
+                "5": 1,
+                "3": 2,
+                "4": 2,
+                "7": 3,
+                "9": 3,
+                "8": 4,
+                "10": 4
+            }
+        ]
+    ]
+}

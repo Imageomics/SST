@@ -63,8 +63,11 @@ python code/trait_retrieval.py --support_image /path/to/sample/image.png \
 ```
 
 ## 📊 Dataset
-Beetle part segmentation dataset is out! Available [here](https://github.com/Imageomics/NEON_beetles_masks.git).
-Butterfly trait segmentation dataset can be accessed [here](https://github.com/ZiheHerzWang/butterfly_dataset/tree/main)!
+Beetle part segmentation dataset is available [here](data/neon_beetles/).
+
+Butterfly trait segmentation dataset can be accessed [here](data/cambridge_butterfly/).
+
+The instructions and appropriate citations for these datasets are provided in the Citation section of their respective READMEs.
 
 ## ❤️ Acknowledgements
 This project makes use of the [SAM2](https://github.com/facebookresearch/sam2) and [GroundingDINO](https://github.com/IDEA-Research/GroundingDINO) codebases. We are grateful to the developers and maintainers of these projects for their contributions to the open-source community.

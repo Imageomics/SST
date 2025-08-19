@@ -29,7 +29,7 @@ Then sync uv packages:
 uv sync
 ```
 
-Download weights into checkpoints folder:
+Download weights into checkpoints folder (you will need `wget`):
 
 ```
 cd checkpoints
@@ -45,11 +45,15 @@ Go to the SAM demo and extract out image for one sample (`img001.png`) into file
 Then run:
 
 ```
-uv run python src/sst/get_mask_from_crop.py --image_path img001.png --image_crop_path img001_extracted.png --mask_image_path_out data/img001_extracted_processed.png
+uv run python src/sst/get_mask_from_crop.py --image_path img001.png --image_crop_path img001_extracted.png --mask_image_path_out img001_extracted_processed.png
 ```
 
 ```
-uv run python src/sst/prepare_starter_mask.py --mask_image_path img001.png --mask_image_path_out data/Snake1_mask_processed.png
+uv run python src/sst/prepare_starter_mask.py --mask_image_path img001_extracted_processed.png --mask_image_path_out img001_extracted_processed.png
+```
+
+```
+uv run python src/sst/segment_and_crop.py --support_image img001.png --support_mask img001_extracted_processed.png --query_images [PATH_TO_IMAGE_DIRECTORY] --output [PATH_TO_SEGMENTED_OUTPUT_DIRECTORY] --output_format png
 ```
 
 

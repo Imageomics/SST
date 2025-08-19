@@ -17,38 +17,43 @@
 
 ## 🛠️ Installation
 Set `CUDA_HOME` to your cuda path (this is for grounding DINO)
+
+For example:
 ```
 export CUDA_HOME=/usr/local/cuda
-
 ```
 
+Then sync uv packages:
 
-To use SST, the following setup must be ran on a GPU enabled machine. The code requires `torch>=2.5.0`, and `python=3.10.14` is recommended. (Note: Make sure your system is using GXX and GCC compilers)
+```
+uv sync
+```
 
-Example Conda Environment Setup:
-```bash
-# Clone repo
-git clone https://github.com/Imageomics/SST.git
-cd SST
-# Create conda environment
-conda create --name sst python=3.10.14
-conda activate sst
-# Download the version of PyTorch that matches the GPU's CUDA version, see https://pytorch.org/get-started/locally/
-pip3 install torch torchvision torchaudio --index-url ...
-# Download and setup GroundingDINO
-(git clone https://github.com/IDEA-Research/GroundingDINO.git && cd GroundingDINO/ && pip install -e .)
-# Install SAM 2
-(cd segment-anything-2 && pip install -e .)
-# Download required python packages, ignore the conflicts message
-pip install -r requirements.txt --no-dependencies
-# Download model checkpoints
-(cd checkpoints && ./download_ckpts.sh)
-(cd checkpoints && wget -q https://github.com/IDEA-Research/GroundingDINO/releases/download/v0.1.0-alpha/groundingdino_swint_ogc.pth)
+Download weights into checkpoints folder:
+
+```
+cd checkpoints
+./download_ckpts.sh
+wget -q https://github.com/IDEA-Research/GroundingDINO/releases/download/v0.1.0-alpha/groundingdino_swint_ogc.pth
 ```
 
 ## 🧑‍💻 Usage
 
-### Segmentation
+### Specimen Segmentation
+Go to the SAM demo and extract out image for one sample (`img001.png`) into file named `img001_extracted.png`.
+
+Then run:
+
+```
+uv run python src/sst/get_mask_from_crop.py --image_path img001.png --image_crop_path img001_extracted.png --mask_image_path_out data/img001_extracted_processed.png
+```
+
+```
+uv run python src/sst/prepare_starter_mask.py --mask_image_path img001.png --mask_image_path_out data/Snake1_mask_processed.png
+```
+
+
+### Trait Segmentation
 For one-shot trait/part segmentation, please run the following demo code:
 ```bash
 python code/segment.py --support_image /path/to/sample/image.png \

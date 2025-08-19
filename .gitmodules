@@ -1,0 +1,3 @@
+[submodule "src/sst/GroundingDINO"]
+    path = src/sst/GroundingDINO
+    url = https://github.com/IDEA-Research/GroundingDINO/  # Update this line with the new URL

@@ -9,9 +9,9 @@ from typing import Optional, Tuple, Type
 import torch
 from torch import nn
 
-from sam2.modeling.position_encoding import PositionEmbeddingRandom
+from sst.segment_anything_2.sam2.modeling.position_encoding import PositionEmbeddingRandom
 
-from sam2.modeling.sam2_utils import LayerNorm2d
+from sst.segment_anything_2.sam2.modeling.sam2_utils import LayerNorm2d
 
 
 class PromptEncoder(nn.Module):

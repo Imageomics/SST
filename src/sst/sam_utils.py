@@ -1,12 +1,12 @@
 import cv2
-import groundingdino.util.inference as DINO_inf
-import groundingdino.datasets.transforms as T
+import sst.GroundingDINO.groundingdino.util.inference as DINO_inf
+import sst.GroundingDINO.groundingdino.datasets.transforms as T
 import torch
 
-from sam2.automatic_mask_generator import SAM2AutomaticMaskGenerator
-from sam2.build_sam import build_sam2
-from sam2.build_sam import build_sam2_video_predictor
-import sam2
+from sst.segment_anything_2.sam2.automatic_mask_generator import SAM2AutomaticMaskGenerator
+from sst.segment_anything_2.sam2.build_sam import build_sam2
+from sst.segment_anything_2.sam2.build_sam import build_sam2_video_predictor
+import sst.segment_anything_2.sam2 as sam2
 from PIL import Image
 import os
 import numpy as np
@@ -169,6 +169,7 @@ def load_masks(video_predictor, query_images, support_image, support_masks, offl
             ann_frame_idx = 0
             ann_obj_id = i  # give a unique id to each object we interact with
             patch_mask = np.array(patch_mask, dtype=np.uint8)
+
             patch_mask = cv2.resize(patch_mask, (1024, 1024))
             _, _, _ = video_predictor.add_new_mask(
                 inference_state=state,

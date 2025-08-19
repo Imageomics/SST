@@ -16,6 +16,13 @@
 - [x] Release butterfly trait segmentation dataset
 
 ## 🛠️ Installation
+Set `CUDA_HOME` to your cuda path (this is for grounding DINO)
+```
+export CUDA_HOME=/usr/local/cuda
+
+```
+
+
 To use SST, the following setup must be ran on a GPU enabled machine. The code requires `torch>=2.5.0`, and `python=3.10.14` is recommended. (Note: Make sure your system is using GXX and GCC compilers)
 
 Example Conda Environment Setup:

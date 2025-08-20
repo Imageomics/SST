@@ -6,6 +6,7 @@ import cv2
 import io
 import argparse
 from PIL import Image
+from tqdm import tqdm
 
 # parse the arguments
 parser = argparse.ArgumentParser(description='Process some integers.')
@@ -13,14 +14,12 @@ parser.add_argument('--support_image', type=str, help='Path to the support image
 parser.add_argument('--support_mask', type=str, help='Path to the support segmentation mask.')
 parser.add_argument('--query_images', type=str, help='Path to the query images folder.')
 parser.add_argument('--output', type=str, help='Path to the output folder.')
-parser.add_argument('--output_format', choices=["png", "gif"], default='gif', help='Output format (optional): gif, png.')
 
 args = parser.parse_args()
 support_image_path = args.support_image
 support_mask_path = args.support_mask
 query_images_folder = args.query_images
 output_folder = args.output
-output_format = args.output_format
 
 # load the support image and mask
 print ("Loading support image and mask...")
@@ -29,7 +28,7 @@ support_mask = cv2.imread(support_mask_path, cv2.IMREAD_GRAYSCALE)
 support_masks = [support_mask == i for i in range(1, support_mask.max()+1)]
 
 # load the query images
-query_image_paths = [os.path.join(query_images_folder, img) for img in sorted(os.listdir(query_images_folder))]
+query_image_paths = [os.path.join(query_images_folder, img) for img in sorted(os.listdir(query_images_folder))] * 100
 query_images = [cv2.imread(path)[..., ::-1] for path in query_image_paths]
 
 # build the predictor
@@ -40,14 +39,16 @@ print ("Inferring the masks...")
 state = sam_utils.load_masks(video_predictor, query_images, support_image, support_masks, verbose=True)
 frames_info = sam_utils.propagate_masks(video_predictor, state, verbose=True)
 
+# Make output folder
+if not os.path.exists(output_folder):
+    os.makedirs(output_folder)
+
 # visualize the results
 output_imgs = []
-print ("Visualizing the results...")
-for i, frame in enumerate(frames_info):
+print ("Saving results...")
+for i, frame in tqdm(enumerate(frames_info), total=len(query_image_paths)+1, desc="Saving Images"):
     if i == 0: # skip template frame
         continue
-    plt.clf()
-    plt.figure(figsize=(10, 10))
     
     # Create masked image where only mask regions are visible
     query_img = query_images[i].copy()
@@ -93,17 +94,10 @@ for i, frame in enumerate(frames_info):
     #print(f"Frame {i}: ymin={ymin}, ymax={ymax}, xmin={xmin}, xmax={xmax}")
     masked_img = masked_img[ymin:ymax, xmin:xmax, :]
     
-    output_imgs.append(Image.fromarray(masked_img))
+    img_path = query_image_paths[i-1]
+    name = os.path.splitext(os.path.basename(img_path))[0]
+    Image.fromarray(masked_img).save(os.path.join(output_folder, f"{name}.png"))
 
-# save the output
-if not os.path.exists(output_folder):
-    os.makedirs(output_folder)
-if output_format == 'gif':
-    output_imgs[0].save(os.path.join(output_folder, "out.gif"), save_all=True, append_images=output_imgs[1:], loop=0, duration=1000)
-else:
-    for img, old_img_path in zip(output_imgs, query_image_paths):
-        name = os.path.splitext(os.path.basename(old_img_path))[0]
-        img.save(os.path.join(output_folder, f"{name}.png"))
 
 print ("Done! The output is saved in", output_folder)
 

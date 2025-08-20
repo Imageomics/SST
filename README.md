@@ -93,6 +93,7 @@ uv run python src/sst/segment_and_crop.py \
   --output [PATH_TO_SEGMENTED_OUTPUT_DIRECTORY]
 ```
 
+The above script is RAM intensive on large datasets. To process individually run the above with `src/sst/segment_and_crop_individual.py`
 
 ### Trait Segmentation
 For one-shot trait/part segmentation, please run the following demo code:

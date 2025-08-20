@@ -28,7 +28,7 @@ support_mask = cv2.imread(support_mask_path, cv2.IMREAD_GRAYSCALE)
 support_masks = [support_mask == i for i in range(1, support_mask.max()+1)]
 
 # load the query images
-query_image_paths = [os.path.join(query_images_folder, img) for img in sorted(os.listdir(query_images_folder))] * 100
+query_image_paths = [os.path.join(query_images_folder, img) for img in sorted(os.listdir(query_images_folder))]
 query_images = [cv2.imread(path)[..., ::-1] for path in query_image_paths]
 
 # build the predictor

@@ -40,21 +40,16 @@ if not os.path.exists(output_folder):
     
 # load the support image and mask
 print ("Inferring the masks...")
-state = sam_utils.load_masks(video_predictor, query_images, support_image, support_masks, verbose=True)
-frames_info = sam_utils.propagate_masks(video_predictor, state, verbose=True)
-
-
-# visualize the results
-output_imgs = []
-print ("Saving results...")
-for i, frame in tqdm(enumerate(frames_info), total=len(query_image_paths)+1, desc="Saving Images"):
-    if i == 0: # skip template frame
-        continue
+for path, img in tqdm(zip(query_image_paths, query_images), total=len(query_image_paths), desc="processing and saving"):
+    state = sam_utils.load_masks(video_predictor, [img], support_image, support_masks, verbose=False)
+    frames_info = sam_utils.propagate_masks(video_predictor, state, verbose=False)
+        
+    frame = frames_info[1] # skip template frame
     
     # Create masked image where only mask regions are visible
-    query_img = query_images[i].copy()
+    query_img = img.copy()
     out_masks = frame['segmentation']
-    out_masks = [cv2.resize(mask.astype(np.uint8), (query_images[i].shape[1], query_images[i].shape[0])) for mask in out_masks]
+    out_masks = [cv2.resize(mask.astype(np.uint8), (img.shape[1], img.shape[0])) for mask in out_masks]
     obj_ids = frame['obj_ids']
     
     # Create combined mask from all detected objects
@@ -95,8 +90,7 @@ for i, frame in tqdm(enumerate(frames_info), total=len(query_image_paths)+1, des
     #print(f"Frame {i}: ymin={ymin}, ymax={ymax}, xmin={xmin}, xmax={xmax}")
     masked_img = masked_img[ymin:ymax, xmin:xmax, :]
     
-    img_path = query_image_paths[i-1]
-    name = os.path.splitext(os.path.basename(img_path))[0]
+    name = os.path.splitext(os.path.basename(path))[0]
     Image.fromarray(masked_img).save(os.path.join(output_folder, f"{name}.png"))
 
 

@@ -40,11 +40,9 @@ wget -q https://github.com/IDEA-Research/GroundingDINO/releases/download/v0.1.0-
 ## 🧑‍💻 Usage
 
 ### Specimen Segmentation
-Go to the [SAM](https://segment-anything.com/) demo and extract out image for one sample (`img001.png`) into file named `img001_extracted.png`.
+Go to the [SAM](https://segment-anything.com/) demo, upload a representative image (e.g., `img001.png`), click the portions to segment, and select "Cut out object" from the sidebar. Right click and save the extraction (`img001_extracted.png`).
 
-
-
-Then run:
+Then run the following two commands to generate the mask (like a guide for the model in segmentation shape--note the final processed image will _appear_ to be an all black image):
 
 ```
 uv run python src/sst/get_mask_from_crop.py \
@@ -53,11 +51,14 @@ uv run python src/sst/get_mask_from_crop.py \
 --mask_image_path_out img001_extracted_processed.png
 ```
 
+
 ```
 uv run python src/sst/prepare_starter_mask.py \
 --mask_image_path img001_extracted_processed.png \
 --mask_image_path_out img001_extracted_processed.png
 ```
+
+Now that the mask has been generated, the following command can be run to segment your remaining images.
 
 ```
 uv run python src/sst/segment_and_crop.py \

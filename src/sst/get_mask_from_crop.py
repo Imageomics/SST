@@ -15,13 +15,23 @@ img = cv2.imread(args.image_path, cv2.IMREAD_UNCHANGED)
 img_seg = cv2.imread(args.image_crop_path, cv2.IMREAD_UNCHANGED)
 
 w, h = img_seg.shape[1], img_seg.shape[0]
-res = cv2.matchTemplate(img, img_seg, cv2.TM_SQDIFF)
-loc = np.where(res == np.array(res).min())
 
-x, y = list(zip(*loc[::-1]))[0]
-y = int(y)
-x = int(x)
-
+# Template matching
+best_value = None
+best_pos = None
+for x in range(img.shape[1]):
+    if x+w >= img.shape[1]:
+        break
+    for y in range(img.shape[0]):
+        if y+h >= img.shape[0]:
+            break
+        
+        diff = ((img[y:y+h, x:x+w, :3] - img_seg[:, :, :3])**2).sum()
+        if best_value is None or diff < best_value:
+            best_value = diff
+            best_pos = x, y 
+            
+x, y = best_pos
 print(y, x)
 img = np.array(Image.open(args.image_path))
 img_seg = np.array(Image.open(args.image_crop_path))

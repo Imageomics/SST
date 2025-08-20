@@ -29,18 +29,33 @@ Then sync uv packages:
 uv sync
 ```
 
-Download weights into checkpoints folder (you will need `wget`):
+Download weights into checkpoints folder:
 
+For `wget`
 ```
 cd checkpoints
-./download_ckpts.sh
+wget https://dl.fbaipublicfiles.com/segment_anything_2/072824/sam2_hiera_large.pt
 wget -q https://github.com/IDEA-Research/GroundingDINO/releases/download/v0.1.0-alpha/groundingdino_swint_ogc.pth
 ```
+
+For `curl`:
+```
+cd checkpoints
+curl https://dl.fbaipublicfiles.com/segment_anything_2/072824/sam2_hiera_large.pt --output sam2_hiera_large.pt
+curl https://github.com/IDEA-Research/GroundingDINO/releases/download/v0.1.0-alpha/groundingdino_swint_ogc.pth --output groundingdino_swint_ogc.pth
+```
+
 
 ## 🧑‍💻 Usage
 
 ### Specimen Segmentation
 Go to the [SAM](https://segment-anything.com/) demo, upload a representative image (e.g., `img001.png`), click the portions to segment, and select "Cut out object" from the sidebar. Right click and save the extraction (`img001_extracted.png`).
+
+See the two examples below:
+`img001.png`            |  `img001_extracted.png`
+:-------------------------:|:-------------------------:
+![](assets/MothWasp1.png)  |  ![](assets/MothWasp1_segmentation.png)
+
 
 Then run the following two commands to generate the mask (like a guide for the model in segmentation shape--note the final processed image will _appear_ to be an all black image):
 
@@ -51,12 +66,22 @@ uv run python src/sst/get_mask_from_crop.py \
 --mask_image_path_out img001_extracted_processed.png
 ```
 
+Example output:
+`img001_extracted_processed.png`|
+:-------------------------:|
+![](assets/MothWasp1_mask.png)  |
+
 
 ```
 uv run python src/sst/prepare_starter_mask.py \
 --mask_image_path img001_extracted_processed.png \
 --mask_image_path_out img001_extracted_processed.png
 ```
+
+Example output (NOTE: the color is very faint):
+`img001_extracted_processed.png`|
+:-------------------------:|
+![](assets/MothWasp1_mask_processed.png)  |
 
 Now that the mask has been generated, the following command can be run to segment your remaining images.
 

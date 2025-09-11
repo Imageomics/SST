@@ -1,4 +1,6 @@
 import os
+import random
+import time
 import numpy as np
 import matplotlib.pyplot as plt
 import sam_utils
@@ -7,6 +9,7 @@ import io
 import argparse
 from PIL import Image
 from tqdm import tqdm
+import rawpy
 
 # parse the arguments
 parser = argparse.ArgumentParser(description='Process some integers.')
@@ -14,6 +17,7 @@ parser.add_argument('--support_image', type=str, help='Path to the support image
 parser.add_argument('--support_mask', type=str, help='Path to the support segmentation mask.')
 parser.add_argument('--query_images', type=str, help='Path to the query images folder.')
 parser.add_argument('--output', type=str, help='Path to the output folder.')
+parser.add_argument('--do_not_reprocess', action='store_true', help='Do not reprocess already processed images')
 
 args = parser.parse_args()
 support_image_path = args.support_image
@@ -28,8 +32,12 @@ support_mask = cv2.imread(support_mask_path, cv2.IMREAD_GRAYSCALE)
 support_masks = [support_mask == i for i in range(1, support_mask.max()+1)]
 
 # load the query images
-query_image_paths = [os.path.join(query_images_folder, img) for img in sorted(os.listdir(query_images_folder))]
-query_images = [cv2.imread(path)[..., ::-1] for path in query_image_paths]
+
+query_image_paths = []
+for root, dirs, files in os.walk(query_images_folder):
+    for f in files:
+        query_image_paths.append(os.path.join(root, f))
+#query_images = [cv2.imread(path)[..., ::-1] for path in query_image_paths]
 
 # build the predictor
 video_predictor = sam_utils.build_sam2_predictor()
@@ -38,9 +46,24 @@ video_predictor = sam_utils.build_sam2_predictor()
 if not os.path.exists(output_folder):
     os.makedirs(output_folder)
     
+# Shuffle paths
+random.seed(time.time())
+random.shuffle(query_image_paths)
+    
 # load the support image and mask
 print ("Inferring the masks...")
-for path, img in tqdm(zip(query_image_paths, query_images), total=len(query_image_paths), desc="processing and saving"):
+for path in tqdm(query_image_paths, desc="processing and saving"):
+    name, ext = os.path.splitext(os.path.basename(path))
+    image_save_path = os.path.join(output_folder, f"{name}.png")
+    if args.do_not_reprocess and os.path.exists(image_save_path):
+        continue
+    
+    if ext.lower() in [".cr2", ".tiff"]:
+        raw = rawpy.imread(path)
+        rgb = raw.postprocess()
+        img = cv2.cvtColor(rgb, cv2.COLOR_RGB2BGR)
+    else:
+        img = cv2.imread(path)[..., ::-1]
     state = sam_utils.load_masks(video_predictor, [img], support_image, support_masks, verbose=False)
     frames_info = sam_utils.propagate_masks(video_predictor, state, verbose=False)
         
@@ -90,8 +113,8 @@ for path, img in tqdm(zip(query_image_paths, query_images), total=len(query_imag
     #print(f"Frame {i}: ymin={ymin}, ymax={ymax}, xmin={xmin}, xmax={xmax}")
     masked_img = masked_img[ymin:ymax, xmin:xmax, :]
     
-    name = os.path.splitext(os.path.basename(path))[0]
-    Image.fromarray(masked_img).save(os.path.join(output_folder, f"{name}.png"))
+    
+    Image.fromarray(masked_img).save(image_save_path)
 
 
 print ("Done! The output is saved in", output_folder)

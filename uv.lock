@@ -822,6 +822,26 @@ wheels = [
 ]
 
 [[package]]
+name = "rawpy"
+version = "0.25.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "numpy" },
+]
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/79/dc/3f1523233a1c9e4f9ed5cd3da25098a38045ec8915c5e84c57afa4dee9fd/rawpy-0.25.1-cp312-cp312-macosx_10_9_x86_64.whl", hash = "sha256:de1eb5dc43b8d8f64815458a6e3cbd54b2d0a661963f8d545c8b8028ed4dbdd8", size = 1111629, upload-time = "2025-08-03T10:41:26.609Z" },
+    { url = "https://files.pythonhosted.org/packages/80/5a/89bc5605f080d077d7325d48834ecc2bd8f34c7eb288d7a74e0ce519eb2e/rawpy-0.25.1-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:c4cd188819bf2e99b399e56f84adc22551f8db6bf645e95c36e86b6fed910246", size = 1011870, upload-time = "2025-08-03T10:41:28.304Z" },
+    { url = "https://files.pythonhosted.org/packages/6c/6a/0384603b6bd9a7e524480ea9e4bcc8166bed3a0b361e0cb07f4a74f86aec/rawpy-0.25.1-cp312-cp312-manylinux2014_aarch64.manylinux_2_17_aarch64.whl", hash = "sha256:b72705da4a23beba6aa85dbe3bb4f68e7d32e7f123847160a4c1e5db8adecb69", size = 1920420, upload-time = "2025-08-03T10:41:29.874Z" },
+    { url = "https://files.pythonhosted.org/packages/82/37/80eb8b019e424fa0e1dd7fcfd274b9491b85990d95b0a477029b8e89e924/rawpy-0.25.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:1ea3c7617e0de2483155c3dfc3c475df7ec393bc1901307c53c5346590e34f1b", size = 1940441, upload-time = "2025-08-03T10:41:31.345Z" },
+    { url = "https://files.pythonhosted.org/packages/a7/90/3f665e62a3ef8c6059faec665878acfcf4078bc0669d99d153394645fcb2/rawpy-0.25.1-cp312-cp312-win_amd64.whl", hash = "sha256:fb91f8fb21b56037ecc3c062ce2de4d97fdc7d4ecb1d2738280461d74c593562", size = 863936, upload-time = "2025-08-03T10:41:33.267Z" },
+    { url = "https://files.pythonhosted.org/packages/49/09/b326d7ef050c763e25f285f7c7647720836fca536a288c8d47d01b044d20/rawpy-0.25.1-cp313-cp313-macosx_10_9_x86_64.whl", hash = "sha256:1ab6f626c9a89b4b4f8c4e3c61a03636b551bbea9f2c23425310b49d463232d8", size = 1111487, upload-time = "2025-08-03T10:41:34.899Z" },
+    { url = "https://files.pythonhosted.org/packages/44/a6/d44c2841e41da22a06a0f2d83cffca3e7b2431e5e6208e045062d78df85b/rawpy-0.25.1-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:e9bfce34be5af4716b9187fa8f59a1731320ffcb15ea3263d749dffb22963fd2", size = 1011626, upload-time = "2025-08-03T10:41:36.552Z" },
+    { url = "https://files.pythonhosted.org/packages/be/50/6bc0b6244b375632b1606efa1eee52a8065d71201b61f24e5316b8532e34/rawpy-0.25.1-cp313-cp313-manylinux2014_aarch64.manylinux_2_17_aarch64.whl", hash = "sha256:35dc70dc1b5bdeeb6373a16642e03e830866b9cb9913700d5a4553e0632614f2", size = 1920096, upload-time = "2025-08-03T10:41:38.372Z" },
+    { url = "https://files.pythonhosted.org/packages/c5/b4/18eaeb24178267ff2f0293ffaca063ba8ca3df454135af8203c8dcc1b392/rawpy-0.25.1-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:7428891221f01e5de00c214bb8b4d90ed7ce2cc05d988dbe727cd31bae27be16", size = 1940787, upload-time = "2025-08-03T10:41:41.03Z" },
+    { url = "https://files.pythonhosted.org/packages/e4/f0/6c770f8161decd878c7bf8be01359d856f20f88731686d2fa9ba0ff5d07c/rawpy-0.25.1-cp313-cp313-win_amd64.whl", hash = "sha256:71a24f688f80df829baa0b639d2ebf04a2e6934cbf62a95651b6541cfa21610f", size = 864062, upload-time = "2025-08-03T10:41:42.759Z" },
+]
+
+[[package]]
 name = "regex"
 version = "2025.7.34"
 source = { registry = "https://pypi.org/simple" }
@@ -992,6 +1012,7 @@ dependencies = [
     { name = "matplotlib" },
     { name = "opencv-python" },
     { name = "pycocotools" },
+    { name = "rawpy" },
     { name = "supervision" },
     { name = "timm" },
     { name = "torch" },
@@ -1007,6 +1028,7 @@ requires-dist = [
     { name = "matplotlib", specifier = ">=3.10.5" },
     { name = "opencv-python", specifier = ">=4.12.0.88" },
     { name = "pycocotools", specifier = ">=2.0.10" },
+    { name = "rawpy", specifier = ">=0.25.1" },
     { name = "supervision", specifier = ">=0.26.1" },
     { name = "timm", specifier = ">=1.0.19" },
     { name = "torch", specifier = ">=2.8.0" },

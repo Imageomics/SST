@@ -11,12 +11,17 @@ parser.add_argument("--image_crop_path", type=str)
 parser.add_argument("--mask_image_path_out", type=str)
 args = parser.parse_args()
 
-img = cv2.imread(args.image_path, cv2.IMREAD_UNCHANGED)
-img_seg = cv2.imread(args.image_crop_path, cv2.IMREAD_UNCHANGED)
-img_seg[img_seg[:, :, 3] == 0] = [0, 0, 0, 0]
+img = cv2.imread(args.image_path, cv2.IMREAD_UNCHANGED).astype(np.float32)
+img_seg = cv2.imread(args.image_crop_path, cv2.IMREAD_UNCHANGED).astype(np.float32)
+
+img_seg_mask = np.uint8(img_seg[:, :, 3] != 0)
+
+if img.shape[2] == 3:
+    img = cv2.cvtColor(img, cv2.COLOR_BGR2BGRA)
+
 
 w, h = img_seg.shape[1], img_seg.shape[0]
-res = cv2.matchTemplate(img, img_seg, method=cv2.TM_SQDIFF)
+res = cv2.matchTemplate(img, img_seg, cv2.TM_SQDIFF, mask=img_seg_mask)
 loc = np.where(res == res.min())
 
 y, x = loc

@@ -16,32 +16,86 @@
 - [x] Release butterfly trait segmentation dataset
 
 ## 🛠️ Installation
-To use SST, the following setup must be ran on a GPU enabled machine. The code requires `torch>=2.5.0`, and `python=3.10.14` is recommended. (Note: Make sure your system is using GXX and GCC compilers)
+Set `CUDA_HOME` to your cuda path (this is for grounding DINO)
 
-Example Conda Environment Setup:
-```bash
-# Clone repo
-git clone https://github.com/Imageomics/SST.git
-cd SST
-# Create conda environment
-conda create --name sst python=3.10.14
-conda activate sst
-# Download the version of PyTorch that matches the GPU's CUDA version, see https://pytorch.org/get-started/locally/
-pip3 install torch torchvision torchaudio --index-url ...
-# Download and setup GroundingDINO
-(git clone https://github.com/IDEA-Research/GroundingDINO.git && cd GroundingDINO/ && pip install -e .)
-# Install SAM 2
-(cd segment-anything-2 && pip install -e .)
-# Download required python packages, ignore the conflicts message
-pip install -r requirements.txt --no-dependencies
-# Download model checkpoints
-(cd checkpoints && ./download_ckpts.sh)
-(cd checkpoints && wget -q https://github.com/IDEA-Research/GroundingDINO/releases/download/v0.1.0-alpha/groundingdino_swint_ogc.pth)
+For example:
 ```
+export CUDA_HOME=/usr/local/cuda
+```
+
+Then sync uv packages:
+
+```
+uv sync
+```
+
+Download weights into checkpoints folder:
+
+For `wget`
+```
+cd checkpoints
+wget https://dl.fbaipublicfiles.com/segment_anything_2/072824/sam2_hiera_large.pt
+wget -q https://github.com/IDEA-Research/GroundingDINO/releases/download/v0.1.0-alpha/groundingdino_swint_ogc.pth
+```
+
+For `curl`:
+```
+cd checkpoints
+curl https://dl.fbaipublicfiles.com/segment_anything_2/072824/sam2_hiera_large.pt --output sam2_hiera_large.pt
+curl https://github.com/IDEA-Research/GroundingDINO/releases/download/v0.1.0-alpha/groundingdino_swint_ogc.pth --output groundingdino_swint_ogc.pth
+```
+
 
 ## 🧑‍💻 Usage
 
-### Segmentation
+### Specimen Segmentation
+Go to the [SAM](https://segment-anything.com/) demo, upload a representative image (e.g., `img001.png`), click the portions to segment, and select "Cut out object" from the sidebar. Right click and save the extraction (`img001_extracted.png`).
+
+See the two examples below:
+`img001.png`            |  `img001_extracted.png`
+:-------------------------:|:-------------------------:
+![](assets/MothWasp1.png)  |  ![](assets/MothWasp1_segmentation.png)
+
+
+Then run the following two commands to generate the mask (like a guide for the model in segmentation shape--note the final processed image will _appear_ to be an all black image):
+
+```
+uv run python src/sst/get_mask_from_crop.py \
+--image_path img001.png \
+--image_crop_path img001_extracted.png \
+--mask_image_path_out img001_extracted_processed.png
+```
+
+Example output:
+`img001_extracted_processed.png`|
+:-------------------------:|
+![](assets/MothWasp1_mask.png)  |
+
+
+```
+uv run python src/sst/prepare_starter_mask.py \
+--mask_image_path img001_extracted_processed.png \
+--mask_image_path_out img001_extracted_processed.png
+```
+
+Example output (NOTE: the color is very faint):
+`img001_extracted_processed.png`|
+:-------------------------:|
+![](assets/MothWasp1_mask_processed.png)  |
+
+Now that the mask has been generated, the following command can be run to segment your remaining images.
+
+```
+uv run python src/sst/segment_and_crop.py \
+  --support_image img001.png \
+  --support_mask img001_extracted_processed.png \
+  --query_images [PATH_TO_IMAGE_DIRECTORY] \
+  --output [PATH_TO_SEGMENTED_OUTPUT_DIRECTORY]
+```
+
+The above script is RAM intensive on large datasets. To process individually run the above with `src/sst/segment_and_crop_individual.py`
+
+### Trait Segmentation
 For one-shot trait/part segmentation, please run the following demo code:
 ```bash
 python code/segment.py --support_image /path/to/sample/image.png \

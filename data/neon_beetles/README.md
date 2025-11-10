@@ -24,6 +24,7 @@ If you use this dataset in your research, please cite both [our work](../../READ
 
 @software{Ramirez_2018_NEON_Ethanol-preserved_2025,
         author = {Ramirez, Michelle and Nepovinnykh, Ekaterina and Ali, Sarwan and Campolongo, Elizabeth G.},
+        doi = {10.5281/zenodo.16989738},
         license = {MIT},
         title = {{2018 NEON Ethanol-preserved Ground Beetles Processing}},
         url = {https://github.com/Imageomics/2018-NEON-beetles-processing},

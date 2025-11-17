@@ -129,8 +129,6 @@ We thank [LoRA](https://github.com/microsoft/LoRA) for their great work.
 
 We also thank [David Carlyn](https://davidcarlyn.wordpress.com/) for his contributions to improving the repository’s ease of setup, workflows, and overall usability; and [Sam Stevens](https://samuelstevens.me/) for developing a nice interactive tool for mask generation, selection, and visualization.
 
-We appre
-
 
 ## 📝 Citation
 If you find our work helpful for your research, please consider citing using the following BibTeX entry:

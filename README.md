@@ -127,6 +127,10 @@ The instructions and appropriate citations for these datasets are provided in th
 This project makes use of the [SAM2](https://github.com/facebookresearch/sam2) and [GroundingDINO](https://github.com/IDEA-Research/GroundingDINO) codebases. We are grateful to the developers and maintainers of these projects for their contributions to the open-source community.
 We thank [LoRA](https://github.com/microsoft/LoRA) for their great work.
 
+We also thank [David Carlyn](https://davidcarlyn.wordpress.com/) for his contributions to improving the repository’s ease of setup, workflows, and overall usability; and [Sam Stevens](https://samuelstevens.me/) for developing a nice interactive tool for mask generation, selection, and visualization.
+
+We appre
+
 
 ## 📝 Citation
 If you find our work helpful for your research, please consider citing using the following BibTeX entry:

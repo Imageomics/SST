@@ -51,11 +51,12 @@ curl https://github.com/IDEA-Research/GroundingDINO/releases/download/v0.1.0-alp
 ### Specimen Segmentation
 Go to the [SAM](https://segment-anything.com/) demo, upload a representative image (e.g., `img001.png`), click the portions to segment, and select "Cut out object" from the sidebar. Right click and save the extraction (`img001_extracted.png`).
 
-See the two examples below:
+See the two examples[^1] below:
 `img001.png`            |  `img001_extracted.png`
 :-------------------------:|:-------------------------:
 ![](assets/MothWasp1.png)  |  ![](assets/MothWasp1_segmentation.png)
 
+[^1]: Example images are from Santos, S. C. P. (2025). _Wasp-Moth Mimicry_. Hugging Face. <https://huggingface.co/datasets/Sol-Carolina/Wasp_moth_mimicry>.
 
 Then run the following two commands to generate the mask (like a guide for the model in segmentation shape--note the final processed image will _appear_ to be an all black image):
 

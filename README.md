@@ -99,7 +99,7 @@ The above script is RAM intensive on large datasets. To process individually run
 ### Trait Segmentation
 For one-shot trait/part segmentation, please run the following demo code:
 ```bash
-python code/segment.py --support_image /path/to/sample/image.png \
+python src/sst/segment.py --support_image /path/to/sample/image.png \
   --support_mask /path/to/greyscale_mask.png \ 
   --query_images /path/to/query/images/folder \
   --output /path/to/output/folder \
@@ -108,7 +108,7 @@ python code/segment.py --support_image /path/to/sample/image.png \
 ### Trait-Based Retrieval
 For trait-based retrieval, please refer to the demo code below:
 ```bash
-python code/trait_retrieval.py --support_image /path/to/sample/image.png \
+python src/sst/trait_retrieval.py --support_image /path/to/sample/image.png \
   --support_mask /path/to/greyscale_mask.png \ 
   --trait_id 1 \ # target trait to retrieve, denote by the value in support mask  \
   --query_images /path/to/query/images/folder \
@@ -116,6 +116,10 @@ python code/trait_retrieval.py --support_image /path/to/sample/image.png \
   --output_format "png" \ # png or gif, optional
   --top_k 5 # n top retrievals to save as results
 ```
+
+### Low-Code Implementation
+
+In the [`gui/`](gui) directory, there is a low-code option for users. Follow the directions in that `README` to install and run the interface.
 
 ## 📊 Dataset
 Beetle part segmentation dataset is available [here](data/neon_beetles/).

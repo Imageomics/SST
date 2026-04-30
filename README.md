@@ -107,12 +107,14 @@ python code/segment.py --support_image /path/to/sample/image.png \
 ### Fine-tuning with OC-CCL
 OC-CCL (Open-Close Cycle Consistency Loss) fine-tunes SAM2 on a target species. The cycle opens with `reference → query` (predict the query mask) and closes with `query → reference` (predict the closing mask back on the reference), supervised against the reference's GT mask with BCE + Dice.
 
-**1. Get the butterfly images.** Mask annotations are already tracked under `data/cambridge_butterfly/DataSet_Butterfly/`. Download the corresponding source images from Zenodo:
+**1. Get the butterfly images.** Mask annotations are already tracked under `data/cambridge_butterfly/DataSet_Butterfly/`. Download the corresponding source images from Zenodo using [`cautious-robot`](https://github.com/Imageomics/cautious-robot):
 ```bash
-python data/cambridge_butterfly/download_parallel.py
-# or for a single-threaded version with backoff:
-python data/cambridge_butterfly/download_all_images.py
+pip install cautious-robot
+python data/cambridge_butterfly/build_download_csv.py
+cautious-robot -i data/cambridge_butterfly/images.csv \
+               -o data/cambridge_butterfly/images
 ```
+The first command flattens the per-species `train_test_separate/*.json` files into a single CSV (`filename`, `file_url`); the second downloads each image to `data/cambridge_butterfly/images/<image_id>.<ext>`. cautious-robot skips files that already exist and retries 429/5xx responses.
 
 **2. Train on one or more species.**
 ```bash

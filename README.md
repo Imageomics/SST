@@ -11,7 +11,7 @@
 - [x] Release inference code
 - [x] Release beetle part segmentation dataset
 - [ ] Release online demo
-- [ ] Release one-shot fine-tuning (OC-CCL) code
+- [x] Release one-shot fine-tuning (OC-CCL) code
 - [x] Release trait retrieval code
 - [x] Release butterfly trait segmentation dataset
 
@@ -104,6 +104,37 @@ python code/segment.py --support_image /path/to/sample/image.png \
   --output /path/to/output/folder \
   --output_format "png" # png or gif, optional
 ```
+### One-shot Fine-tuning (OC-CCL)
+OC-CCL (One-shot Cycle-Consistency Learning) fine-tunes SAM2 on a target species using only one labeled image per training pair. The cycle is `reference → query → reference`, supervised against the original mask with BCE + Dice loss.
+
+**1. Get the butterfly images.** Mask annotations are already tracked under `data/cambridge_butterfly/DataSet_Butterfly/`. Download the corresponding source images from Zenodo:
+```bash
+python data/cambridge_butterfly/download_parallel.py
+# or for a single-threaded version with backoff:
+python data/cambridge_butterfly/download_all_images.py
+```
+
+**2. Train on one or more species.**
+```bash
+python src/sst/oc_ccl.py \
+  --checkpoint checkpoints/sam2_hiera_large.pt \
+  --species "(malleti x plesseni) x malleti" \
+  --epochs 10 --lr 1e-5 \
+  --output_dir outputs/oc_ccl
+```
+Best checkpoint is written to `<output_dir>/best_model.pt`. Defaults: `--lr 1e-5`, `--batch_size 1`, `--epochs 10`.
+
+**3. Reproduce the ablation grid.** 16 runs across 8 GPUs sweeping learning rate, BCE/Dice weighting, LoRA rank, and memory reset:
+```bash
+bash experiments/launch_ablations.sh
+python experiments/eval_all_ablations.py   # writes outputs/ablation/eval_results.json
+```
+
+**4. Curriculum variant (top-n% by reconstruction quality).** Precomputes per-sample cycle reconstruction IoU, then trains only on the highest-quality fraction:
+```bash
+python experiments/curriculum_oc_ccl.py --gpu 0 --epochs 10 --lr 1e-6
+```
+
 ### Trait-Based Retrieval
 For trait-based retrieval, please refer to the demo code below:
 ```bash

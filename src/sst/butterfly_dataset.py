@@ -27,7 +27,7 @@ IMAGE_DIR = DATA_ROOT / "images"
 
 class ButterflyOCCCLDataset(Dataset):
     """
-    One-shot cycle-consistency dataset for butterfly segmentation.
+    Open-Close Cycle Consistency dataset for butterfly segmentation.
 
     Each sample returns a (reference, mask, query) triplet from the same species.
     The reference and query are different images.

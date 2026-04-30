@@ -11,7 +11,7 @@
 - [x] Release inference code
 - [x] Release beetle part segmentation dataset
 - [ ] Release online demo
-- [x] Release one-shot fine-tuning (OC-CCL) code
+- [x] Release Open-Close Cycle Consistency Loss (OC-CCL) fine-tuning code
 - [x] Release trait retrieval code
 - [x] Release butterfly trait segmentation dataset
 

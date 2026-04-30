@@ -63,7 +63,7 @@ def build_model(checkpoint, device="cuda"):
 
 class DifferentiableSAM2Tracker:
     """
-    Wraps a SAM2Base model for differentiable one-shot tracking.
+    Wraps a SAM2Base model for differentiable mask-conditioned tracking.
 
     SAM2VideoPredictor uses @torch.inference_mode() which blocks gradients.
     This class calls the underlying methods directly:

@@ -107,14 +107,14 @@ python code/segment.py --support_image /path/to/sample/image.png \
 ### Fine-tuning with OC-CCL
 OC-CCL (Open-Close Cycle Consistency Loss) fine-tunes SAM2 on a target species. The cycle opens with `reference → query` (predict the query mask) and closes with `query → reference` (predict the closing mask back on the reference), supervised against the reference's GT mask with BCE + Dice.
 
-**1. Get the butterfly images.** Mask annotations are already tracked under `data/cambridge_butterfly/DataSet_Butterfly/`. Download the corresponding source images from Zenodo using [`cautious-robot`](https://github.com/Imageomics/cautious-robot):
+**1. Get the butterfly images.** Mask annotations are already tracked under `data/cambridge_butterfly/DataSet_Butterfly/`. The image manifest with Zenodo URLs and md5 checksums is committed at `data/cambridge_butterfly/images.csv`. Download with [`cautious-robot`](https://github.com/Imageomics/cautious-robot):
 ```bash
 pip install cautious-robot
-python data/cambridge_butterfly/build_download_csv.py
 cautious-robot -i data/cambridge_butterfly/images.csv \
-               -o data/cambridge_butterfly/images
+               -o data/cambridge_butterfly/images \
+               --checksum-algorithm md5 --verifier-col md5
 ```
-The first command flattens the per-species `train_test_separate/*.json` files into a single CSV (`filename`, `file_url`); the second downloads each image to `data/cambridge_butterfly/images/<image_id>.<ext>`. cautious-robot skips files that already exist and retries 429/5xx responses.
+Images land at `data/cambridge_butterfly/images/<image_id>.<ext>`. cautious-robot skips existing files, retries 429/5xx responses, and verifies every download against the committed md5. The manifest can be regenerated from the per-species `train_test_separate/*.json` files via `python data/cambridge_butterfly/build_download_csv.py` (queries the Zenodo API for fresh checksums).
 
 **2. Train on one or more species.**
 ```bash

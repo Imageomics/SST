@@ -1,5 +1,5 @@
 """
-OC-CCL: One-shot Cycle-Consistency Learning for SAM2.
+OC-CCL: Open-Close Cycle Consistency Loss for SAM2.
 
 Trains SAM2 by running a cycle:
   reference→query (predict mask on query using reference mask)
@@ -347,7 +347,7 @@ def train(args):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="OC-CCL: One-shot Cycle-Consistency Learning for SAM2")
+    parser = argparse.ArgumentParser(description="OC-CCL: Open-Close Cycle Consistency Loss for SAM2")
     parser.add_argument("--checkpoint", type=str, default="checkpoints/sam2_hiera_large.pt",
                         help="Path to SAM2 checkpoint")
     parser.add_argument("--device", type=str, default="cuda", choices=["cuda", "cpu"])

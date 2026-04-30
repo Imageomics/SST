@@ -1,5 +1,5 @@
 """
-ButterflyOCCCLDataset — Dataset for One-shot Cycle-Consistency Learning.
+ButterflyOCCCLDataset — Dataset for Open-Close Cycle Consistency Loss.
 
 Returns (x0, y0, xu) triplets from the same species:
   x0: reference image (has ground-truth mask y0)

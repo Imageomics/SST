@@ -104,8 +104,8 @@ python code/segment.py --support_image /path/to/sample/image.png \
   --output /path/to/output/folder \
   --output_format "png" # png or gif, optional
 ```
-### One-shot Fine-tuning (OC-CCL)
-OC-CCL (One-shot Cycle-Consistency Learning) fine-tunes SAM2 on a target species using only one labeled image per training pair. The cycle is `reference → query → reference`, supervised against the original mask with BCE + Dice loss.
+### Fine-tuning with OC-CCL
+OC-CCL (Open-Close Cycle Consistency Loss) fine-tunes SAM2 on a target species. The cycle opens with `reference → query` (predict the query mask) and closes with `query → reference` (predict the closing mask back on the reference), supervised against the reference's GT mask with BCE + Dice.
 
 **1. Get the butterfly images.** Mask annotations are already tracked under `data/cambridge_butterfly/DataSet_Butterfly/`. Download the corresponding source images from Zenodo:
 ```bash

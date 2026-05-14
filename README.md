@@ -11,7 +11,7 @@
 - [x] Release inference code
 - [x] Release beetle part segmentation dataset
 - [ ] Release online demo
-- [ ] Release one-shot fine-tuning (OC-CCL) code
+- [x] Release Open-Close Cycle Consistency Loss (OC-CCL) fine-tuning code
 - [x] Release trait retrieval code
 - [x] Release butterfly trait segmentation dataset
 
@@ -105,6 +105,39 @@ python src/sst/segment.py --support_image /path/to/sample/image.png \
   --output /path/to/output/folder \
   --output_format "png" # png or gif, optional
 ```
+### Fine-tuning with OC-CCL
+OC-CCL (Open-Close Cycle Consistency Loss) fine-tunes SAM2 on a target species. The cycle opens with `reference → query` (predict the query mask) and closes with `query → reference` (predict the closing mask back on the reference), supervised against the reference's GT mask with BCE + Dice.
+
+**1. Get the butterfly images.** Mask annotations are already tracked under `data/cambridge_butterfly/DataSet_Butterfly/`. The image manifest with Zenodo URLs and md5 checksums is committed at `data/cambridge_butterfly/images.csv`. Download with [`cautious-robot`](https://github.com/Imageomics/cautious-robot):
+```bash
+pip install cautious-robot
+cautious-robot -i data/cambridge_butterfly/images.csv \
+               -o data/cambridge_butterfly/images \
+               --checksum-algorithm md5 --verifier-col md5
+```
+Images land at `data/cambridge_butterfly/images/<image_id>.<ext>`. cautious-robot skips existing files, retries 429/5xx responses, and verifies every download against the committed md5. The manifest can be regenerated from the per-species `train_test_separate/*.json` files via `python data/cambridge_butterfly/build_download_csv.py` (queries the Zenodo API for fresh checksums).
+
+**2. Train on one or more species.**
+```bash
+python src/sst/oc_ccl.py \
+  --checkpoint checkpoints/sam2_hiera_large.pt \
+  --species "(malleti x plesseni) x malleti" \
+  --epochs 10 --lr 1e-5 \
+  --output_dir outputs/oc_ccl
+```
+Best checkpoint is written to `<output_dir>/best_model.pt`. Defaults: `--lr 1e-5`, `--batch_size 1`, `--epochs 10`.
+
+**3. Reproduce the ablation grid.** 16 runs across 8 GPUs sweeping learning rate, BCE/Dice weighting, LoRA rank, and memory reset:
+```bash
+bash experiments/launch_ablations.sh
+python experiments/eval_all_ablations.py   # writes outputs/ablation/eval_results.json
+```
+
+**4. Curriculum variant (top-n% by reconstruction quality).** Precomputes per-sample cycle reconstruction IoU, then trains only on the highest-quality fraction:
+```bash
+python experiments/curriculum_oc_ccl.py --gpu 0 --epochs 10 --lr 1e-6
+```
+
 ### Trait-Based Retrieval
 For trait-based retrieval, please refer to the demo code below:
 ```bash

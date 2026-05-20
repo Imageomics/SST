@@ -1,0 +1,25 @@
+[project]
+site_name = "SST Documentation"
+site_description = "Documentation for the Static Segmentation by Tracking (SST) pipeline"
+site_author = "Imageomics Informatics Team"
+repo_url = "https://github.com/Imageomics/SST"
+repo_name = "Imageomics/SST"
+
+nav = [
+  { "Home" = [{ "Overview" = "index.md" }]},
+  { "Getting Started" = [
+    { "Installation" = "installation.md" },
+    { "Quick Reference" = "quickstart.md" },
+  ]},
+  { "Generating Reference Masks" = [
+    { "Overview" = "reference-mask-tools/index.md" },
+    { "napari" = "reference-mask-tools/napari.md" },
+    { "X-AnyLabeling" = "reference-mask-tools/x-anylabeling.md" },
+    { "Fiji" = "reference-mask-tools/fiji.md" },
+    { "Label Studio" = "reference-mask-tools/label-studio.md" },
+  ]},
+  { "Reference" = [
+    { "Input/Output Formats" = "io.md" },
+    { "Acknowledgements" = "acknowledgements.md" },
+  ]},
+]

@@ -1,2 +1,3 @@
-def hello() -> str:
-    return "Hello from sst!"
+"""Static Segmentation by Tracking (SST)."""
+
+__version__ = "2.0.0"

@@ -1,72 +1,69 @@
-import os
-import numpy as np
-import matplotlib.pyplot as plt
-import sam_utils
-import cv2
+"""Propagate a support mask across a folder of query images and save the visualized segmentations."""
+
 import io
-import argparse
+import os
+
+import cv2
+import matplotlib.pyplot as plt
+import numpy as np
 from PIL import Image
 
-# parse the arguments
-parser = argparse.ArgumentParser(description='Process some integers.')
-parser.add_argument('--support_image', type=str, help='Path to the support image.')
-parser.add_argument('--support_mask', type=str, help='Path to the support segmentation mask.')
-parser.add_argument('--query_images', type=str, help='Path to the query images folder.')
-parser.add_argument('--output', type=str, help='Path to the output folder.')
-parser.add_argument('--output_format', choices=["png", "gif"], default='gif', help='Output format (optional): gif, png.')
+from sst import sam_utils
 
-args = parser.parse_args()
-support_image_path = args.support_image
-support_mask_path = args.support_mask
-query_images_folder = args.query_images
-output_folder = args.output
-output_format = args.output_format
 
-# load the support image and mask
-print ("Loading support image and mask...")
-support_image = cv2.imread(support_image_path)[..., ::-1]
-support_mask = cv2.imread(support_mask_path, cv2.IMREAD_GRAYSCALE)
-support_masks = [support_mask == i for i in range(1, support_mask.max()+1)]
+def add_arguments(parser):
+    parser.add_argument("--support_image", type=str, required=True, help="Path to the support image.")
+    parser.add_argument("--support_mask", type=str, required=True, help="Path to the support segmentation mask.")
+    parser.add_argument("--query_images", type=str, required=True, help="Path to the query images folder.")
+    parser.add_argument("--output", type=str, required=True, help="Path to the output folder.")
+    parser.add_argument("--output_format", choices=["png", "gif"], default="gif", help="Output format.")
+    parser.add_argument("--model", type=str, default=sam_utils.DEFAULT_SAM2_MODEL, help="SAM2 model id.")
+    parser.add_argument("--device", type=str, default=None, help="Compute device (default: auto).")
+    return parser
 
-# load the query images
-query_images = sorted(os.listdir(query_images_folder))
-query_images = [cv2.imread(os.path.join(query_images_folder, img))[..., ::-1] for img in query_images]
 
-# build the predictor
-video_predictor = sam_utils.build_sam2_predictor()
+def run(args):
+    print("Loading support image and mask...")
+    support_image = cv2.imread(args.support_image)[..., ::-1]
+    support_mask = cv2.imread(args.support_mask, cv2.IMREAD_GRAYSCALE)
+    support_masks = [support_mask == i for i in range(1, support_mask.max() + 1)]
 
-# load the support image and mask
-print ("Inferring the masks...")
-state = sam_utils.load_masks(video_predictor, query_images, support_image, support_masks, verbose=True)
-frames_info = sam_utils.propagate_masks(video_predictor, state, verbose=True)
+    query_names = sorted(os.listdir(args.query_images))
+    query_images = [cv2.imread(os.path.join(args.query_images, name))[..., ::-1] for name in query_names]
 
-# visualize the results
-output_imgs = []
-print ("Visualizing the results...")
-for i, frame in enumerate(frames_info):
-    plt.clf()
-    plt.figure(figsize=(10, 10))
-    plt.imshow(query_images[i])
-    out_masks = frame['segmentation']
-    out_masks = [cv2.resize(mask.astype(np.uint8), (query_images[i].shape[1], query_images[i].shape[0])) for mask in out_masks]
-    obj_ids = frame['obj_ids']
-    for j, mask in enumerate(out_masks):
-        sam_utils.show_mask(mask, plt.gca(), obj_ids[j], borders=True, alpha=0.75)
-    plt.axis('off')
-    buf = io.BytesIO()
-    plt.savefig(buf, format='png')
-    buf.seek(0)
-    img = Image.open(buf)
-    output_imgs.append(img)
+    tracker = sam_utils.Sam2Tracker(model_id=args.model, device=args.device)
 
-# save the output
-if not os.path.exists(output_folder):
-    os.makedirs(output_folder)
-if output_format == 'gif':
-    output_imgs[0].save(os.path.join(output_folder, "out.gif"), save_all=True, append_images=output_imgs[1:], loop=0, duration=1000)
-else:
-    for i, img in enumerate(output_imgs):
-        img.save(os.path.join(output_folder, f"{i:06d}.png"))
+    print("Inferring the masks...")
+    frames_info = tracker.segment(support_image, support_masks, query_images, verbose=True)
 
-print ("Done! The output is saved in", output_folder)
+    frames = [support_image] + query_images
+    print("Visualizing the results...")
+    output_imgs = []
+    for frame, info in zip(frames, frames_info):
+        plt.clf()
+        plt.figure(figsize=(10, 10))
+        plt.imshow(frame)
+        for obj_id, mask in zip(info["obj_ids"], info["segmentation"]):
+            mask = cv2.resize(mask.astype(np.uint8), (frame.shape[1], frame.shape[0]))
+            sam_utils.show_mask(mask, plt.gca(), obj_id, borders=True, alpha=0.75)
+        plt.axis("off")
+        buf = io.BytesIO()
+        plt.savefig(buf, format="png")
+        plt.close()
+        buf.seek(0)
+        output_imgs.append(Image.open(buf))
 
+    os.makedirs(args.output, exist_ok=True)
+    if args.output_format == "gif":
+        output_imgs[0].save(
+            os.path.join(args.output, "out.gif"),
+            save_all=True,
+            append_images=output_imgs[1:],
+            loop=0,
+            duration=1000,
+        )
+    else:
+        for i, img in enumerate(output_imgs):
+            img.save(os.path.join(args.output, f"{i:06d}.png"))
+
+    print("Done! The output is saved in", args.output)

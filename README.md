@@ -16,34 +16,26 @@
 - [x] Release butterfly trait segmentation dataset
 
 ## 🛠️ Installation
-Set `CUDA_HOME` to your cuda path (this is for grounding DINO)
 
-For example:
-```
-export CUDA_HOME=/usr/local/cuda
-```
-
-Then sync uv packages:
+Install from PyPI:
 
 ```
-uv sync
+pip install sstrack
 ```
 
-Download weights into checkpoints folder:
+or with [uv](https://docs.astral.sh/uv/):
 
-For `wget`
 ```
-cd checkpoints
-wget https://dl.fbaipublicfiles.com/segment_anything_2/072824/sam2_hiera_large.pt
-wget -q https://github.com/IDEA-Research/GroundingDINO/releases/download/v0.1.0-alpha/groundingdino_swint_ogc.pth
+uv pip install sstrack
 ```
 
-For `curl`:
+For raw camera formats (CR2, NEF, ARW, DNG) in `sst segment-and-crop`, install the optional extra:
+
 ```
-cd checkpoints
-curl https://dl.fbaipublicfiles.com/segment_anything_2/072824/sam2_hiera_large.pt --output sam2_hiera_large.pt
-curl https://github.com/IDEA-Research/GroundingDINO/releases/download/v0.1.0-alpha/groundingdino_swint_ogc.pth --output groundingdino_swint_ogc.pth
+pip install "sstrack[raw]"
 ```
+
+SST builds on SAM2 and Grounding DINO through HuggingFace `transformers`. Model weights are downloaded from the HuggingFace Hub the first time a model is used and cached under `~/.cache/huggingface` (override with `HF_HOME`), so there is no manual checkpoint download step. The first run needs network access and will fetch a few hundred MB depending on the chosen model; subsequent runs reuse the cache and work offline. The default SAM2 model is `facebook/sam2.1-hiera-tiny`; pass `--model facebook/sam2.1-hiera-large` (or another variant) for higher quality, and `--device cpu`/`--device cuda` to choose hardware (auto-detected by default).
 
 
 ## 🧑‍💻 Usage
@@ -61,7 +53,7 @@ See the two examples[^1] below:
 Then run the following two commands to generate the mask (like a guide for the model in segmentation shape--note the final processed image will _appear_ to be an all black image):
 
 ```
-uv run python src/sst/get_mask_from_crop.py \
+sst mask-from-crop \
 --image_path img001.png \
 --image_crop_path img001_extracted.png \
 --mask_image_path_out img001_extracted_processed.png
@@ -74,7 +66,7 @@ Example output:
 
 
 ```
-uv run python src/sst/prepare_starter_mask.py \
+sst prepare-mask \
 --mask_image_path img001_extracted_processed.png \
 --mask_image_path_out img001_extracted_processed.png
 ```
@@ -87,72 +79,39 @@ Example output (NOTE: the color is very faint):
 Now that the mask has been generated, the following command can be run to segment your remaining images.
 
 ```
-uv run python src/sst/segment_and_crop.py \
+sst segment-and-crop \
   --support_image img001.png \
   --support_mask img001_extracted_processed.png \
   --query_images [PATH_TO_IMAGE_DIRECTORY] \
   --output [PATH_TO_SEGMENTED_OUTPUT_DIRECTORY]
 ```
 
-The above script is RAM intensive on large datasets. To process individually run the above with `src/sst/segment_and_crop_individual.py`
+The default mode loads all query images at once. On large datasets, add `--per-image` to walk the folder recursively and process one image at a time (this also supports raw formats and can resume with `--no-reprocess`).
 
 ### Trait Segmentation
 For one-shot trait/part segmentation, please run the following demo code:
 ```bash
-python src/sst/segment.py --support_image /path/to/sample/image.png \
-  --support_mask /path/to/greyscale_mask.png \ 
+sst segment --support_image /path/to/sample/image.png \
+  --support_mask /path/to/greyscale_mask.png \
   --query_images /path/to/query/images/folder \
   --output /path/to/output/folder \
   --output_format "png" # png or gif, optional
-```
-### Fine-tuning with OC-CCL
-OC-CCL (Open-Close Cycle Consistency Loss) fine-tunes SAM2 on a target species. The cycle opens with `reference → query` (predict the query mask) and closes with `query → reference` (predict the closing mask back on the reference), supervised against the reference's GT mask with BCE + Dice.
-
-**1. Get the butterfly images.** Mask annotations are already tracked under `data/cambridge_butterfly/DataSet_Butterfly/`. The image manifest with Zenodo URLs and md5 checksums is committed at `data/cambridge_butterfly/images.csv`. Download with [`cautious-robot`](https://github.com/Imageomics/cautious-robot):
-```bash
-pip install cautious-robot
-cautious-robot -i data/cambridge_butterfly/images.csv \
-               -o data/cambridge_butterfly/images \
-               --checksum-algorithm md5 --verifier-col md5
-```
-Images land at `data/cambridge_butterfly/images/<image_id>.<ext>`. cautious-robot skips existing files, retries 429/5xx responses, and verifies every download against the committed md5. The manifest can be regenerated from the per-species `train_test_separate/*.json` files via `python data/cambridge_butterfly/build_download_csv.py` (queries the Zenodo API for fresh checksums).
-
-**2. Train on one or more species.**
-```bash
-python src/sst/oc_ccl.py \
-  --checkpoint checkpoints/sam2_hiera_large.pt \
-  --species "(malleti x plesseni) x malleti" \
-  --epochs 10 --lr 1e-5 \
-  --output_dir outputs/oc_ccl
-```
-Best checkpoint is written to `<output_dir>/best_model.pt`. Defaults: `--lr 1e-5`, `--batch_size 1`, `--epochs 10`.
-
-**3. Reproduce the ablation grid.** 16 runs across 8 GPUs sweeping learning rate, BCE/Dice weighting, LoRA rank, and memory reset:
-```bash
-bash experiments/launch_ablations.sh
-python experiments/eval_all_ablations.py   # writes outputs/ablation/eval_results.json
-```
-
-**4. Curriculum variant (top-n% by reconstruction quality).** Precomputes per-sample cycle reconstruction IoU, then trains only on the highest-quality fraction:
-```bash
-python experiments/curriculum_oc_ccl.py --gpu 0 --epochs 10 --lr 1e-6
 ```
 
 ### Trait-Based Retrieval
 For trait-based retrieval, please refer to the demo code below:
 ```bash
-python src/sst/trait_retrieval.py --support_image /path/to/sample/image.png \
-  --support_mask /path/to/greyscale_mask.png \ 
-  --trait_id 1 \ # target trait to retrieve, denote by the value in support mask  \
+sst retrieve --support_image /path/to/sample/image.png \
+  --support_mask /path/to/greyscale_mask.png \
+  --trait_id 1 \
   --query_images /path/to/query/images/folder \
   --output /path/to/output/folder \
-  --output_format "png" \ # png or gif, optional
-  --top_k 5 # n top retrievals to save as results
+  --output_format "png" \
+  --top_k 5
 ```
 
-### Low-Code Implementation
-
-In the [`gui/`](gui) directory, there is a low-code option for users. Follow the directions in that `README` to install and run the interface.
+### Fine-tuning with OC-CCL
+OC-CCL (Open-Close Cycle Consistency Loss) fine-tuning is not part of the installable package. Its scripts (`experiments/oc_ccl.py`, ablations, and the curriculum variant) predate the v2.0.0 migration to HuggingFace `transformers` and still depend on the vendored SAM2 copy that shipped with the v1.1.0 scripts-era release. See [`experiments/README.md`](experiments/README.md) for details; porting OC-CCL to the `transformers` backend is tracked as a follow-up.
 
 ## 📊 Dataset
 Beetle part segmentation dataset is available [here](data/neon_beetles/).
@@ -162,7 +121,7 @@ Butterfly trait segmentation dataset can be accessed [here](data/cambridge_butte
 The instructions and appropriate citations for these datasets are provided in the Citation section of their respective READMEs.
 
 ## ❤️ Acknowledgements
-This project makes use of the [SAM2](https://github.com/facebookresearch/sam2) and [GroundingDINO](https://github.com/IDEA-Research/GroundingDINO) codebases. We are grateful to the developers and maintainers of these projects for their contributions to the open-source community.
+This project builds on [SAM2](https://github.com/facebookresearch/sam2) and [GroundingDINO](https://github.com/IDEA-Research/GroundingDINO) through their [HuggingFace `transformers`](https://github.com/huggingface/transformers) implementations. We are grateful to the developers and maintainers of these projects for their contributions to the open-source community.
 We thank [LoRA](https://github.com/microsoft/LoRA) for their great work.
 
 We also thank [David Carlyn](https://davidcarlyn.wordpress.com/) for his contributions to improving the repository’s ease of setup, workflows, and overall usability; and [Sam Stevens](https://samuelstevens.me/) for developing a nice interactive tool for mask generation, selection, and visualization.

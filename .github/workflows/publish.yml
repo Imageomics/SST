@@ -1,0 +1,56 @@
+name: Publish to PyPI
+
+# Lint, test, and build the distribution on every pull request, and publish to PyPI when a GitHub
+# Release is published. Publishing uses PyPI Trusted Publishing (OIDC), so no API token is stored in
+# the repository; the "pypi" environment must be configured as a trusted publisher for the sstrack
+# project on PyPI before the first release.
+
+on:
+  pull_request:
+  release:
+    types: [published]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      # The test suite is intentionally torch-free (see tests/), so install only the lightweight
+      # dependencies the tests touch rather than the full deep-learning stack.
+      - name: Lint
+        run: uv run --no-project --with ruff ruff check src/sst tests
+      - name: Test
+        run: >
+          uv run --no-project
+          --with pytest --with numpy --with opencv-python-headless
+          --with pillow --with matplotlib --with tqdm
+          pytest
+
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - name: Build sdist and wheel
+        run: uv build
+      - name: Check distribution metadata
+        run: uvx twine check dist/*
+      - uses: actions/upload-artifact@v4
+        with:
+          name: dist
+          path: dist/
+
+  publish:
+    needs: [check, build]
+    if: github.event_name == 'release'
+    runs-on: ubuntu-latest
+    environment: pypi
+    permissions:
+      id-token: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: dist/
+      - uses: pypa/gh-action-pypi-publish@release/v1

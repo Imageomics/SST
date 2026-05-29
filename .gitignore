@@ -1,6 +1,17 @@
 __pycache__/
 out/
 
+# Build and packaging artifacts
+dist/
+build/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Local clones of upstream model repos, no longer vendored into the package
+/GroundingDINO/
+/segment-anything-2/
+
 # *.jpg
 *.gif
 # *.png

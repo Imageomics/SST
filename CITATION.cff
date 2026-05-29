@@ -53,9 +53,9 @@ authors:
 cff-version: 1.2.0
 date-released: "2025-01-12"
 identifiers:
-  - description: "The GitHub release URL of tag v1.0.0."
+  - description: "The GitHub release URL of tag v2.0.0."
     type: url
-    value: "https://github.com/Imageomics/SST/releases/tag/v1.0.0"
+    value: "https://github.com/Imageomics/SST/releases/tag/v2.0.0"
 keywords:
   - imageomics
   - biological vision
@@ -66,7 +66,7 @@ license: "MIT"
 message: "If you find this software helpful in your research, please cite both the software and our paper."
 repository-code: "https://github.com/Imageomics/SST"
 title: "SST: Static Segmentation by Tracking"
-version: v1.0.0
+version: v2.0.0
 type: software
 preferred-citation:
   type: article

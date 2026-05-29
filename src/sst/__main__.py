@@ -35,7 +35,10 @@ def _top_level_parser():
 def main(argv=None):
     argv = list(sys.argv[1:] if argv is None else argv)
 
-    if not argv or argv[0] in ("-h", "--help", "--version"):
+    if not argv:
+        _top_level_parser().print_help()
+        return
+    if argv[0] in ("-h", "--help", "--version"):
         _top_level_parser().parse_args(argv)
         return
 

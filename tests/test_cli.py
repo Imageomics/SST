@@ -22,6 +22,15 @@ def test_help_exits_cleanly(capsys):
         assert name in out
 
 
+def test_no_args_prints_help(capsys):
+    # Bare `sst` should print the help listing, not exit silently.
+    main([])
+    out = capsys.readouterr().out
+    assert "usage: sst" in out
+    for name in SUBCOMMANDS:
+        assert name in out
+
+
 def test_unknown_command_errors():
     with pytest.raises(SystemExit) as exc:
         main(["does-not-exist"])

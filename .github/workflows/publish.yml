@@ -1,0 +1,40 @@
+name: Publish to PyPI
+
+# Build and validate the distribution on every pull request, and publish to PyPI when a GitHub
+# Release is published. Publishing uses PyPI Trusted Publishing (OIDC), so no API token is stored in
+# the repository; the "pypi" environment must be configured as a trusted publisher for the sstrack
+# project on PyPI before the first release.
+
+on:
+  pull_request:
+  release:
+    types: [published]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - name: Build sdist and wheel
+        run: uv build
+      - name: Check distribution metadata
+        run: uvx twine check dist/*
+      - uses: actions/upload-artifact@v4
+        with:
+          name: dist
+          path: dist/
+
+  publish:
+    needs: build
+    if: github.event_name == 'release'
+    runs-on: ubuntu-latest
+    environment: pypi
+    permissions:
+      id-token: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: dist/
+      - uses: pypa/gh-action-pypi-publish@release/v1

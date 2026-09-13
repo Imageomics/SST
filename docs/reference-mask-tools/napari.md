@@ -58,3 +58,17 @@ napari.run()
 
 - The Save button writes a uint8 PNG with values 0–4, directly usable as SST's `--support_mask`
 - Within-species propagation (e.g. CAM→CAM) produces clean results; cross-species propagation shows expected degradation consistent with SST's general behaviour
+
+## Toward a napari-sst plugin
+
+This script is a structural prototype for a future `napari-sst` plugin. The `PushButton` plus `add_dock_widget` pattern used here is identical to how a napari plugin dock widget is registered — the save logic, label layer, and dock panel would map directly into a plugin's `@napari_hook_implementation` structure.
+
+The intended role of the plugin in the SST workflow is:
+
+1. User opens a specimen image in napari
+2. The `napari-sst` dock panel appears automatically
+3. User traces wings and assigns label integers 1–4
+4. Plugin saves the mask directly to the SST output directory in the correct format
+5. SST inference runs from the command line using the saved mask as `--support_mask`
+
+This would replace the current Streamlit GUI's reference mask step with a more capable annotation interface, while keeping SST's inference pipeline unchanged. See the [napari plugin development guide](https://napari.org/dev/plugins/index.html) for implementation details.

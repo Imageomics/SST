@@ -7,6 +7,9 @@
 - For calibrated specimen images, use files with the `_calibrated` suffix
 
 ### Reference masks (`--support_mask`)
+
+SST requires masks in greyscale PNG format regardless of which annotation tool was used to create them. Tools that export JSON (such as X-AnyLabeling and Label Studio) require a conversion step to produce this format before they can be used as SST inputs.
+
 - Format: greyscale PNG, 8-bit
 - Same spatial dimensions as the corresponding image
 - Pixel values:
